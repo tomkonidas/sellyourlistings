@@ -1,17 +1,20 @@
 <template>
   <div>
     <Hero />
+    <Testimonials />
     <Footer />
   </div>
 </template>
 
 <script>
 import Hero from '~/components/Hero.vue'
+import Testimonials from '~/components/Testimonials.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Hero,
+    Testimonials,
     Footer
   }
 }
