@@ -4,6 +4,7 @@
     <Services />
     <Pricing />
     <Testimonials />
+    <FAQ />
     <Footer />
   </div>
 </template>
@@ -13,6 +14,7 @@ import Hero from '~/components/Hero.vue'
 import Testimonials from '~/components/Testimonials.vue'
 import Pricing from '~/components/Pricing.vue'
 import Services from '~/components/Services.vue'
+import FAQ from '~/components/FAQ.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
@@ -21,6 +23,7 @@ export default {
     Testimonials,
     Services,
     Pricing,
+    FAQ,
     Footer
   }
 }
