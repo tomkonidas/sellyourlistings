@@ -1,6 +1,8 @@
 <template>
   <div>
     <Hero />
+    <Services />
+    <Pricing />
     <Testimonials />
     <Footer />
   </div>
@@ -9,12 +11,16 @@
 <script>
 import Hero from '~/components/Hero.vue'
 import Testimonials from '~/components/Testimonials.vue'
+import Pricing from '~/components/Pricing.vue'
+import Services from '~/components/Services.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Hero,
     Testimonials,
+    Services,
+    Pricing,
     Footer
   }
 }
