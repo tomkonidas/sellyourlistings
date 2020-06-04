@@ -2,7 +2,7 @@
   <div>
     <Hero />
     <Pricing />
-    <Services />
+    <Features />
     <EnterprisePlan />
     <Testimonials />
     <FAQ />
@@ -15,7 +15,7 @@ import Hero from '~/components/Hero.vue'
 import Testimonials from '~/components/Testimonials.vue'
 import Pricing from '~/components/Pricing.vue'
 import EnterprisePlan from '~/components/EnterprisePlan.vue'
-import Services from '~/components/Services.vue'
+import Features from '~/components/Features.vue'
 import FAQ from '~/components/FAQ.vue'
 import Footer from '~/components/Footer.vue'
 
@@ -23,7 +23,7 @@ export default {
   components: {
     Hero,
     Testimonials,
-    Services,
+    Features,
     Pricing,
     EnterprisePlan,
     FAQ,
