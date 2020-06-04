@@ -1,10 +1,10 @@
 <template>
   <div>
     <Hero />
-    <Pricing />
     <Features />
-    <EnterprisePlan />
+    <Pricing />
     <Testimonials />
+    <EnterprisePlan />
     <FAQ />
     <Footer />
   </div>
