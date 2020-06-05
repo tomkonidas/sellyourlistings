@@ -4,7 +4,7 @@
       <div class="lg:grid lg:grid-cols-3 lg:gap-8">
         <div>
           <div
-            class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+            class="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white"
           >
             <svg
               class="h-6 w-6"
@@ -33,7 +33,7 @@
         </div>
         <div class="mt-10 lg:mt-0">
           <div
-            class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+            class="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white"
           >
             <svg
               class="h-6 w-6"
@@ -62,7 +62,7 @@
         </div>
         <div class="mt-10 lg:mt-0">
           <div
-            class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+            class="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white"
           >
             <svg
               class="h-6 w-6"
