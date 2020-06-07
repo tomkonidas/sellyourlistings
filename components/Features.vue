@@ -1,5 +1,5 @@
 <template>
-  <div id="features" class="py-12 bg-white">
+  <div id="features" class="py-12 lg:py-24 bg-white">
     <div class="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-screen-xl lg:px-8">
       <div class="lg:grid lg:grid-cols-3 lg:gap-8">
         <div>
@@ -22,12 +22,10 @@
           </div>
           <div class="mt-5">
             <h5 class="text-lg leading-6 font-medium text-gray-900">
-              Competitive exchange rates
+              High quality craftsmanship
             </h5>
             <p class="mt-2 text-base leading-6 text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-              impedit perferendis suscipit eaque, iste dolor cupiditate
-              blanditiis ratione.
+              We don't settle for just "OK".
             </p>
           </div>
         </div>
@@ -54,9 +52,7 @@
               No hidden fees
             </h5>
             <p class="mt-2 text-base leading-6 text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-              impedit perferendis suscipit eaque, iste dolor cupiditate
-              blanditiis ratione.
+              Fully transparent pricing.
             </p>
           </div>
         </div>
@@ -80,12 +76,10 @@
           </div>
           <div class="mt-5">
             <h5 class="text-lg leading-6 font-medium text-gray-900">
-              Transfers are instant
+              Fast delivery time
             </h5>
             <p class="mt-2 text-base leading-6 text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-              impedit perferendis suscipit eaque, iste dolor cupiditate
-              blanditiis ratione.
+              Editted and delivered within 24-48 hours.
             </p>
           </div>
         </div>
