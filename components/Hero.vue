@@ -32,16 +32,6 @@
             </nav>
         </div>
 
-        <!--
-            Mobile menu, show/hide based on menu open state.
-
-            Entering: "duration-150 ease-out"
-            From: "opacity-0 scale-95"
-            To: "opacity-100 scale-100"
-            Leaving: "duration-100 ease-in"
-            From: "opacity-100 scale-100"
-            To: "opacity-0 scale-95"
-        -->
         <transition
             enter-active-class="duration-150 ease-out"
             enter-class="opacity-0 scale-95"
@@ -90,12 +80,7 @@
             <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div class="rounded-md shadow">
                 <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orange-600 hover:bg-orange-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-                    Get started
-                </a>
-                </div>
-                <div class="mt-3 sm:mt-0 sm:ml-3">
-                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orange-700 bg-orange-100 hover:text-orange-600 hover:bg-orange-50 focus:outline-none focus:shadow-outline focus:border-orange-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-                    Live demo
+                    Live Demo
                 </a>
                 </div>
             </div>
