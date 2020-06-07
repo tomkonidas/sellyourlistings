@@ -25,7 +25,7 @@
                         <div class="bg-white px-6 py-10">
                         <div>
                             <h3 class="text-center text-2xl leading-8 font-medium text-gray-900" id="tier-hobby">
-                            Hobby
+                            Standard
                             </h3>
                             <div class="mt-4 flex items-center justify-center">
                             <span class="px-3 flex items-start text-6xl leading-none tracking-tight text-gray-900">
@@ -33,11 +33,8 @@
                                 $
                                 </span>
                                 <span class="font-extrabold">
-                                79
+                                180
                                 </span>
-                            </span>
-                            <span class="text-xl leading-7 font-medium text-gray-500">
-                                /month
                             </span>
                             </div>
                         </div>
@@ -46,32 +43,12 @@
                         <ul>
                             <li class="flex items-start">
                             <div class="flex-shrink-0">
-                                <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                 </svg>
                             </div>
                             <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                                Pariatur quod similique
-                            </p>
-                            </li>
-                            <li class="mt-4 flex items-start">
-                            <div class="flex-shrink-0">
-                                <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </div>
-                            <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                                Sapiente libero doloribus
-                            </p>
-                            </li>
-                            <li class="mt-4 flex items-start">
-                            <div class="flex-shrink-0">
-                                <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                </svg>
-                            </div>
-                            <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                                Vel ipsa esse repudiandae
+                                3D Virtual Tour Dollhouse<span class="text-orange-500">**</span>                           
                             </p>
                             </li>
                         </ul>
@@ -99,7 +76,7 @@
                     <div class="bg-white rounded-t-lg px-6 pt-12 pb-10">
                         <div>
                         <h3 class="text-center text-3xl leading-9 font-semibold text-gray-900 sm:-mx-6" id="tier-growth">
-                            Growth
+                            Plus
                         </h3>
                         <div class="mt-4 flex items-center justify-center">
                             <span class="px-3 flex items-start text-6xl leading-none tracking-tight text-gray-900 sm:text-6xl">
@@ -107,11 +84,8 @@
                                 $
                             </span>
                             <span class="font-extrabold">
-                                149
+                                500
                             </span>
-                            </span>
-                            <span class="text-2xl leading-8 font-medium text-gray-500">
-                            /month
                             </span>
                         </div>
                         </div>
@@ -120,52 +94,42 @@
                         <ul>
                         <li class="flex items-start">
                             <div class="flex-shrink-0">
-                            <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                            <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
                             </div>
                             <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                            Quia rem est sed impedit magnam
+                            Everything included in Standard
                             </p>
                         </li>
                         <li class="mt-4 flex items-start">
                             <div class="flex-shrink-0">
-                            <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                            <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
                             </div>
                             <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                            Dolorem vero ratione voluptates
+                            Interrior Video
                             </p>
                         </li>
                         <li class="mt-4 flex items-start">
                             <div class="flex-shrink-0">
-                            <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                            <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
                             </div>
                             <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                            Qui sed ab doloribus voluptatem dolore
+                            Outdoor Drone Video
                             </p>
                         </li>
                         <li class="mt-4 flex items-start">
                             <div class="flex-shrink-0">
-                            <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                            <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
                             </div>
                             <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                            Laborum commodi molestiae id et fugiat
-                            </p>
-                        </li>
-                        <li class="mt-4 flex items-start">
-                            <div class="flex-shrink-0">
-                            <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                            </svg>
-                            </div>
-                            <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                            Nam ut ipsa nesciunt culpa modi dolor
+                            Essential Photos
                             </p>
                         </li>
                         </ul>
@@ -185,7 +149,7 @@
                         <div class="bg-white px-6 py-10">
                         <div>
                             <h3 class="text-center text-2xl leading-8 font-medium text-gray-900" id="tier-scale">
-                            Scale
+                            Premium
                             </h3>
                             <div class="mt-4 flex items-center justify-center">
                             <span class="px-3 flex items-start text-6xl leading-none tracking-tight text-gray-900">
@@ -193,11 +157,8 @@
                                 $
                                 </span>
                                 <span class="font-extrabold">
-                                349
+                                800
                                 </span>
-                            </span>
-                            <span class="text-xl leading-7 font-medium text-gray-500">
-                                /month
                             </span>
                             </div>
                         </div>
@@ -206,32 +167,42 @@
                         <ul>
                             <li class="flex items-start">
                             <div class="flex-shrink-0">
-                                <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                 </svg>
                             </div>
                             <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                                Pariatur quod similique
+                                Everything included in Plus
                             </p>
                             </li>
                             <li class="mt-4 flex items-start">
                             <div class="flex-shrink-0">
-                                <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                 </svg>
                             </div>
                             <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                                Sapiente libero doloribus
+                                Video Animations with HDR
                             </p>
                             </li>
                             <li class="mt-4 flex items-start">
                             <div class="flex-shrink-0">
-                                <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                 </svg>
                             </div>
                             <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                                Vel ipsa esse repudiandae
+                                Full Coverage Photo Slideshow
+                            </p>
+                            </li>
+                            <li class="mt-4 flex items-start">
+                            <div class="flex-shrink-0">
+                                <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                            </div>
+                            <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+                                Social Media Content Bundle
                             </p>
                             </li>
                         </ul>
