@@ -9,7 +9,7 @@
                 The right price for you, whatever your needs
             </p>
             <p class="mt-3 max-w-4xl mx-auto text-xl leading-7 text-gray-300 sm:mt-5 sm:text-2xl sm:leading-8">
-                If no solutions meets your needs, please contact us for a custom plan.
+                If no solution meets your needs, please contact us for a custom plan.
             </p>
             </div>
         </div>
