@@ -77,7 +77,7 @@
                         </ul>
                         <div class="mt-8">
                             <div class="rounded-lg shadow-md">
-                            <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-red-600 hover:text-red-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150" aria-describedby="tier-hobby">
+                            <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-orange-600 hover:text-orange-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150" aria-describedby="tier-hobby">
                                 Start your trial
                             </a>
                             </div>
@@ -88,10 +88,10 @@
                 </div>
                 <div class="mt-10 max-w-lg mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4">
                     <div class="relative z-10 rounded-lg shadow-xl">
-                    <div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-red-600"></div>
+                    <div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-orange-600"></div>
                     <div class="absolute inset-x-0 top-0 transform translate-y-px">
                         <div class="flex justify-center transform -translate-y-1/2">
-                        <span class="inline-flex rounded-full bg-red-600 px-4 py-1 text-sm leading-5 font-semibold tracking-wider uppercase text-white">
+                        <span class="inline-flex rounded-full bg-orange-600 px-4 py-1 text-sm leading-5 font-semibold tracking-wider uppercase text-white">
                             Most popular
                         </span>
                         </div>
@@ -171,7 +171,7 @@
                         </ul>
                         <div class="mt-10">
                         <div class="rounded-lg shadow-md">
-                            <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-red-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-red-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red transition ease-in-out duration-150" aria-describedby="tier-growth">
+                            <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-orange-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-orange-500 focus:outline-none focus:border-orange-700 focus:shadow-outline-orange transition ease-in-out duration-150" aria-describedby="tier-growth">
                             Start your trial
                             </a>
                         </div>
@@ -237,7 +237,7 @@
                         </ul>
                         <div class="mt-8">
                             <div class="rounded-lg shadow-md">
-                            <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-red-600 hover:text-red-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150" aria-describedby="tier-scale">
+                            <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-orange-600 hover:text-orange-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150" aria-describedby="tier-scale">
                                 Start your trial
                             </a>
                             </div>
