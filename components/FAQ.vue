@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div id="faq" class="bg-white">
     <div
       class="max-w-screen-xl mx-auto pt-12 pb-16 sm:pt-16 sm:pb-20 px-4 sm:px-6 lg:pt-20 lg:pb-28 lg:px-8"
     >
