@@ -3,6 +3,7 @@
     <Hero />
     <Pricing />
     <Features />
+    <Matterport />
     <!-- <Testimonials /> -->
     <FAQ />
     <Footer />
@@ -15,6 +16,7 @@ import Testimonials from '~/components/Testimonials.vue'
 import Pricing from '~/components/Pricing.vue'
 import Features from '~/components/Features.vue'
 import FAQ from '~/components/FAQ.vue'
+import Matterport from '~/components/Matterport.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
@@ -24,6 +26,7 @@ export default {
     Features,
     Pricing,
     FAQ,
+    Matterport,
     Footer
   }
 }
