@@ -88,10 +88,10 @@
                 </div>
                 <div class="mt-10 max-w-lg mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4">
                     <div class="relative z-10 rounded-lg shadow-xl">
-                    <div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-orange-600"></div>
+                    <div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-teal-600"></div>
                     <div class="absolute inset-x-0 top-0 transform translate-y-px">
                         <div class="flex justify-center transform -translate-y-1/2">
-                        <span class="inline-flex rounded-full bg-orange-600 px-4 py-1 text-sm leading-5 font-semibold tracking-wider uppercase text-white">
+                        <span class="inline-flex rounded-full bg-teal-600 px-4 py-1 text-sm leading-5 font-semibold tracking-wider uppercase text-white">
                             Most popular
                         </span>
                         </div>
