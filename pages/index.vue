@@ -1,10 +1,9 @@
 <template>
   <div>
     <Hero />
-    <Features />
     <Pricing />
+    <Features />
     <Testimonials />
-    <EnterprisePlan />
     <FAQ />
     <Footer />
   </div>
@@ -14,7 +13,6 @@
 import Hero from '~/components/Hero.vue'
 import Testimonials from '~/components/Testimonials.vue'
 import Pricing from '~/components/Pricing.vue'
-import EnterprisePlan from '~/components/EnterprisePlan.vue'
 import Features from '~/components/Features.vue'
 import FAQ from '~/components/FAQ.vue'
 import Footer from '~/components/Footer.vue'
