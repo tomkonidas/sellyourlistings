@@ -24,7 +24,7 @@
                     <div class="flex-1 flex flex-col">
                         <div class="bg-white px-6 py-10">
                         <div>
-                            <h3 class="text-center text-2xl leading-8 font-medium text-gray-900" id="tier-hobby">
+                            <h3 class="text-center text-2xl leading-8 font-medium text-gray-900" id="tier-standard">
                             Standard
                             </h3>
                             <div class="mt-4 flex items-center justify-center">
@@ -33,7 +33,7 @@
                                 $
                                 </span>
                                 <span class="font-extrabold">
-                                180
+                                150
                                 </span>
                             </span>
                             </div>
@@ -51,31 +51,34 @@
                                 3D Virtual Tour Dollhouse<span class="text-orange-500">**</span>                           
                             </p>
                             </li>
+                                <li class="mt-4 flex items-start">
+                                <div class="flex-shrink-0">
+                                <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                </svg>
+                                </div>
+                                <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+                                Essential Photos <span class="text-orange-500">+$50</span>
+                                </p>
+                            </li>
                         </ul>
-                        <div class="mt-8">
-                            <div class="rounded-lg shadow-md">
-                            <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-orange-600 hover:text-orange-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150" aria-describedby="tier-hobby">
-                                Start your trial
-                            </a>
-                            </div>
-                        </div>
                         </div>
                     </div>
                     </div>
                 </div>
                 <div class="mt-10 max-w-lg mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4">
                     <div class="relative z-10 rounded-lg shadow-xl">
-                    <div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-teal-600"></div>
+                    <div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-orange-600"></div>
                     <div class="absolute inset-x-0 top-0 transform translate-y-px">
                         <div class="flex justify-center transform -translate-y-1/2">
-                        <span class="inline-flex rounded-full bg-teal-600 px-4 py-1 text-sm leading-5 font-semibold tracking-wider uppercase text-white">
+                        <span class="inline-flex rounded-full bg-orange-600 px-4 py-1 text-sm leading-5 font-semibold tracking-wider uppercase text-white">
                             Most popular
                         </span>
                         </div>
                     </div>
                     <div class="bg-white rounded-t-lg px-6 pt-12 pb-10">
                         <div>
-                        <h3 class="text-center text-3xl leading-9 font-semibold text-gray-900 sm:-mx-6" id="tier-growth">
+                        <h3 class="text-center text-3xl leading-9 font-semibold text-gray-900 sm:-mx-6" id="tier-plus">
                             Plus
                         </h3>
                         <div class="mt-4 flex items-center justify-center">
@@ -129,17 +132,20 @@
                             </svg>
                             </div>
                             <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                            Essential Photos
+                            Full Covereage Photos
+                            </p>
+                        </li>
+                        <li class="mt-4 flex items-start">
+                            <div class="flex-shrink-0">
+                            <svg class="h-6 w-6 text-teal-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            </div>
+                            <p class="ml-3 text-base leading-6 font-medium text-gray-500">
+                            360° Photos
                             </p>
                         </li>
                         </ul>
-                        <div class="mt-10">
-                        <div class="rounded-lg shadow-md">
-                            <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-orange-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-orange-500 focus:outline-none focus:border-orange-700 focus:shadow-outline-orange transition ease-in-out duration-150" aria-describedby="tier-growth">
-                            Start your trial
-                            </a>
-                        </div>
-                        </div>
                     </div>
                     </div>
                 </div>
@@ -148,7 +154,7 @@
                     <div class="flex-1 flex flex-col">
                         <div class="bg-white px-6 py-10">
                         <div>
-                            <h3 class="text-center text-2xl leading-8 font-medium text-gray-900" id="tier-scale">
+                            <h3 class="text-center text-2xl leading-8 font-medium text-gray-900" id="tier-premium">
                             Premium
                             </h3>
                             <div class="mt-4 flex items-center justify-center">
@@ -157,7 +163,7 @@
                                 $
                                 </span>
                                 <span class="font-extrabold">
-                                800
+                                775
                                 </span>
                             </span>
                             </div>
@@ -182,7 +188,7 @@
                                 </svg>
                             </div>
                             <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                                Video Animations with HDR
+                                4K HDR Video with Animations
                             </p>
                             </li>
                             <li class="mt-4 flex items-start">
@@ -192,7 +198,7 @@
                                 </svg>
                             </div>
                             <p class="ml-3 text-base leading-6 font-medium text-gray-500">
-                                Full Coverage Photo Slideshow
+                                Full HDR Photo Slideshow
                             </p>
                             </li>
                             <li class="mt-4 flex items-start">
@@ -206,13 +212,6 @@
                             </p>
                             </li>
                         </ul>
-                        <div class="mt-8">
-                            <div class="rounded-lg shadow-md">
-                            <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-orange-600 hover:text-orange-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150" aria-describedby="tier-scale">
-                                Start your trial
-                            </a>
-                            </div>
-                        </div>
                         </div>
                     </div>
                     </div>
