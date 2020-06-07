@@ -23,7 +23,6 @@ export default {
     Testimonials,
     Features,
     Pricing,
-    EnterprisePlan,
     FAQ,
     Footer
   }
