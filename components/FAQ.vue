@@ -11,13 +11,13 @@
           <div>
             <div>
               <dt class="text-lg leading-6 font-medium text-gray-900">
-                What's the best thing about Switzerland?
+                3D Virtual Tour Dollhouse<span class="text-orange-500">**</span>  
               </dt>
               <dd class="mt-2">
                 <p class="text-base leading-6 text-gray-500">
-                  I don't know, but the flag is a big plus. Lorem ipsum dolor
-                  sit amet consectetur adipisicing elit. Quas cupiditate
-                  laboriosam fugiat.
+                  We store your 3D dollhouse for 3 months. 
+                  If your property is not sold within that time, 
+                  we charge an extra 30$ per month to keep it up.
                 </p>
               </dd>
             </div>
