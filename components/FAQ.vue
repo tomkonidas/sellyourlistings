@@ -17,7 +17,7 @@
                 <p class="text-base leading-6 text-gray-500">
                   We store your 3D dollhouse for 3 months. 
                   If your property is not sold within that time, 
-                  we charge an extra 30$ per month to keep it up.
+                  we charge an extra $30.00 per month to keep it up.
                 </p>
               </dd>
             </div>
