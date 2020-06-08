@@ -23,13 +23,12 @@
             </div>
             <div class="mt-12">
               <dt class="text-lg leading-6 font-medium text-gray-900">
-                How do you make holy water?
+                What areas do you service?
               </dt>
               <dd class="mt-2">
                 <p class="text-base leading-6 text-gray-500">
-                  You boil the hell out of it. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Quas cupiditate laboriosam
-                  fugiat.
+                  We are currently servicing the Montréal, Lavak and Ottawa regions.
+                  If you are near these or are unsure please contact us and we will let you know.
                 </p>
               </dd>
             </div>
