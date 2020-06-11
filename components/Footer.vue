@@ -14,7 +14,7 @@
             />
           </svg>
         </a>
-        <a href="#" class="ml-6 text-gray-400 hover:text-gray-500">
+        <a href="https://www.instagram.com/sellyourlistings" class="ml-6 text-gray-400 hover:text-gray-500">
           <span class="sr-only">Instagram</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
             <path
