@@ -77,7 +77,7 @@
             <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 3D dollhouse, drone and interior videos, property photos and social media management.
                 We offer the most affordable prices to help real estate agents. The areas we operate in are the  <span class="font-bold">Greater Montreal</span>, 
-                 <span class="font-bold">Laval</span>,  <span class="font-bold">Quebec</span>,  <span class="font-bold">Ottawa</span> and  <span class="font-bold">Gatineau</span>.
+                <span class="font-bold">Laval</span>,  <span class="font-bold">Quebec</span>,  <span class="font-bold">Ottawa</span> and  <span class="font-bold">Gatineau</span>.
             </p>
             <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div class="rounded-md shadow">
