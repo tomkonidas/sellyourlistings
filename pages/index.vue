@@ -5,7 +5,7 @@
     <Features />
     <Matterport />
     <!-- <Testimonials /> -->
-    <FAQ />
+    <!-- <FAQ /> -->
     <Footer />
   </div>
 </template>
