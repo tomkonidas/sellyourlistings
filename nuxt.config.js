@@ -24,6 +24,17 @@ export default {
           'Your one-stop-shop Solutions for Affordable Real Estate Services'
       },
       {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Sell Your Listings'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'Your one-stop-shop Solutions for Affordable Real Estate Services'
+      },
+      {
         hid: 'og:image',
         property: 'og:image',
         content: 'https://sellyourlistings.ca/og.jpg'
