@@ -20,7 +20,8 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Your one-stop-shop Affordable Real Estate Services'
+        content:
+          'Your one-stop-shop Solutions for Affordable Real Estate Services'
       },
       {
         hid: 'og:image',
