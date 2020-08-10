@@ -9,14 +9,16 @@ const Services = () => {
       setServices(response.data);
     });
   });
+
   return (
-    <>
+    <div>
+      <h3>services</h3>
       <ul>
         {services.map((service) => (
           <li key={service.id}>{service.name}</li>
         ))}
       </ul>
-    </>
+    </div>
   );
 };
 
