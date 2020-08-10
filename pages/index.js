@@ -3,7 +3,7 @@ import Services from "../components/Services";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Sell Your Listings</title>
         <link rel="icon" href="/favicon.ico" />
