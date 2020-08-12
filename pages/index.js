@@ -4,7 +4,9 @@ const Home = ({ services, packages }) => {
   return (
     <div>
       <Head>
-        <title>Sell Your Listings</title>
+        <title>
+          Sell Your Listings :: We help you sell your listings faster
+        </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
