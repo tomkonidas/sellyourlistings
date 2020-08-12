@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { server } from "../config";
 
 const Home = ({ services, packages }) => {
   return (
@@ -18,8 +19,8 @@ const Home = ({ services, packages }) => {
 };
 
 export async function getStaticProps() {
-  const servicesRes = await fetch("http://127.0.0.1:3001/api/services");
-  const packagesRes = await fetch("http://127.0.0.1:3001/api/packages");
+  const servicesRes = await fetch(`${server}/api/services`);
+  const packagesRes = await fetch(`${server}/api/packages`);
   const services = await servicesRes.json();
   const packages = await packagesRes.json();
 
