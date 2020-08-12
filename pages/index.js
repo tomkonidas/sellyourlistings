@@ -1,7 +1,6 @@
 import Head from "next/head";
-import Services from "../components/Services";
 
-const Home = () => {
+const Home = ({ services, packages }) => {
   return (
     <div>
       <Head>
@@ -10,13 +9,23 @@ const Home = () => {
       </Head>
       <main>
         <h1>Sell Your Listings</h1>
-
-        <div>
-          <Services />
-        </div>
       </main>
     </div>
   );
 };
+
+export async function getStaticProps() {
+  const servicesRes = await fetch("http://127.0.0.1:3001/api/services");
+  const packagesRes = await fetch("http://127.0.0.1:3001/api/packages");
+  const services = await servicesRes.json();
+  const packages = await packagesRes.json();
+
+  return {
+    props: {
+      services,
+      packages,
+    },
+  };
+}
 
 export default Home;
