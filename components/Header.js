@@ -233,6 +233,7 @@ const Header = () => {
                 <a
                   href="https://www.youtube.com/watch?v=VnU7RHhIGPA"
                   rel="noopener noreferrer"
+                  target="_blank"
                   className="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:shadow-outline"
                 >
                   <img
