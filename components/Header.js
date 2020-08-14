@@ -53,7 +53,7 @@ const Header = () => {
               <h2 className="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
                 <span>We help you </span>
                 <br className="hidden md:inline" />
-                <span className="text-indigo-600">sell your listings </span>
+                <span className="text-brand">sell your listings </span>
                 <br className="hidden md:inline" />
                 <span>faster</span>
               </h2>
@@ -119,7 +119,7 @@ const Header = () => {
                   />
                   <div className="absolute inset-0 w-full h-full flex items-center justify-center">
                     <svg
-                      className="h-20 w-20 text-indigo-500"
+                      className="h-20 w-20 text-brand"
                       fill="currentColor"
                       viewBox="0 0 84 84"
                     >

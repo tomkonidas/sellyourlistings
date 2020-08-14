@@ -6,6 +6,13 @@ module.exports = {
   },
   theme: {
     extend: {
+      colors: {
+        brand: {
+          lighter: "#F55555",
+          default: "#F54F4F",
+          dark: "#FF3434",
+        },
+      },
       fontFamily: {
         sans: ["Inter var", ...defaultTheme.fontFamily.sans],
       },
