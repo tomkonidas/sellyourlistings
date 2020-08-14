@@ -52,13 +52,8 @@ const Header = () => {
         <nav className="relative max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6">
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <a href="#" aria-label="Home">
-                {/* <img
-                className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-on-white.svg"
-                alt="Logo"
-              /> */}
-                Sell Your Listings
+              <a href="#" aria-label="Home" className="cursive text-2xl">
+                SellYourListings
               </a>
               <div className="-mr-2 flex items-center md:hidden">
                 <button
@@ -121,12 +116,7 @@ const Header = () => {
               >
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    {/* <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/workflow-mark-on-white.svg"
-                      alt=""
-                    /> */}
-                    <span>Sell Your Listings</span>
+                    <span className="cursive text-xl">SellYourListings</span>
                   </div>
                   <div className="-mr-2">
                     <button
