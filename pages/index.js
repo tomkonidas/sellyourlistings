@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Layout from "../components/Layout";
 import { server } from "../config";
 
 const Home = ({ services, packages }) => {
@@ -10,10 +11,10 @@ const Home = ({ services, packages }) => {
         </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <Layout>
         <h1>Sell Your Listings</h1>
         <h2>we help you sell your listings faster</h2>
-      </main>
+      </Layout>
     </div>
   );
 };
