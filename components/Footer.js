@@ -33,7 +33,8 @@ const Footer = () => (
       </div>
       <div className="mt-8 md:mt-0 md:order-1">
         <p className="text-center text-base leading-6 text-gray-400">
-          &copy; {new Date().getFullYear()} Workflow, Inc. All rights reserved.
+          &copy;{new Date().getFullYear()} Sell Your Listings, All rights
+          reserved.
         </p>
       </div>
     </div>
