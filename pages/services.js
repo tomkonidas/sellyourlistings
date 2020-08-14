@@ -8,7 +8,7 @@ const Services = ({ services, categories }) => {
   return (
     <>
       <Head>
-        <title>Services and pricing</title>
+        <title>Sell Your Listings :: Services, Packages & Pricing</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
