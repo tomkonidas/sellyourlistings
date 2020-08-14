@@ -14,8 +14,6 @@ const Home = ({ services, packages }) => {
       </Head>
       <Layout>
         <Header />
-        <h1>Sell Your Listings</h1>
-        <h2>we help you sell your listings faster</h2>
       </Layout>
     </div>
   );
