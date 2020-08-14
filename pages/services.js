@@ -1,22 +1,24 @@
 import Head from "next/head";
 import { server } from "../config";
 import ServicesConfigurator from "../components/ServicesConfigurator";
+import Layout from "../components/Layout";
+import Navbar from "../components/NavBar";
 
 const Services = ({ services, categories }) => {
   return (
-    <div>
+    <>
       <Head>
         <title>Services and pricing</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <div>
+      <Layout>
+        <Navbar />
         <ServicesConfigurator
           servicesData={services}
           categoriesData={categories}
         />
-      </div>
-    </div>
+      </Layout>
+    </>
   );
 };
 
