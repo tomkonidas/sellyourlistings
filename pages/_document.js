@@ -9,7 +9,21 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+          <meta
+            property="description"
+            value="3D dollhouse, drone and interior videos, property photos and social media management. 
+            We offer the most affordable prices to help real estate agents. 
+            The areas we operate in are the Greater Montreal, Laval, Quebec, Ottawa and Gatineau."
+          />
+          <meta
+            property="og:description"
+            value="3D dollhouse, drone and interior videos, property photos and social media management. 
+            We offer the most affordable prices to help real estate agents. 
+            The areas we operate in are the Greater Montreal, Laval, Quebec, Ottawa and Gatineau."
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />

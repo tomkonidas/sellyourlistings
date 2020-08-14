@@ -9,7 +9,10 @@ const Services = ({ services, categories }) => {
     <>
       <Head>
         <title>Sell Your Listings :: Services, Packages & Pricing</title>
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:title"
+          value="Sell Your Listings :: Services, Packages & Pricing"
+        />
       </Head>
       <Layout>
         <Navbar />

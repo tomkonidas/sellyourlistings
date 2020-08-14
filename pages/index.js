@@ -10,7 +10,10 @@ const Home = ({ services, packages }) => {
         <title>
           Sell Your Listings :: We help you sell your listings faster
         </title>
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:title"
+          value="Sell Your Listings :: We help you sell your listings faster"
+        />
       </Head>
       <Layout>
         <Header />
