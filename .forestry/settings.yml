@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content
   label: Classes
-  match: "**/*"
 - type: directory
   path: content/services
   label: Services
