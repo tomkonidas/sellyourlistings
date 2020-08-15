@@ -3,6 +3,7 @@ import { server } from "../config";
 import Layout from "../components/Layout";
 import Navbar from "../components/NavBar";
 import Container from "../components/Container";
+import Property from "../components/Property";
 
 const Portfolio = ({ portfolio }) => {
   return (
@@ -16,7 +17,7 @@ const Portfolio = ({ portfolio }) => {
         <Container>
           <h1>Portfolio</h1>
           {portfolio.map((property) => (
-            <div key={property.id}>{property.name}</div>
+            <Property property={property} />
           ))}
         </Container>
       </Layout>
