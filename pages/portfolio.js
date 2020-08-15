@@ -16,24 +16,24 @@ const Portfolio = ({ portfolio }) => {
         <Navbar />
         <Container>
           <h1>Portfolio</h1>
-          {/* {portfolio.map((property) => (
+          {portfolio.map((property) => (
             <Property key={property.id} property={property} />
-          ))} */}
+          ))}
         </Container>
       </Layout>
     </>
   );
 };
 
-// export async function getStaticProps() {
-//   const portfolioRes = await fetch(`${server}/api/portfolio`);
-//   const portfolio = await portfolioRes.json();
+export async function getStaticProps() {
+  const portfolioRes = await fetch(`${server}/api/portfolio`);
+  const portfolio = await portfolioRes.json();
 
-//   return {
-//     props: {
-//       portfolio,
-//     },
-//   };
-// }
+  return {
+    props: {
+      portfolio,
+    },
+  };
+}
 
 export default Portfolio;
