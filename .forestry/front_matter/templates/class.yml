@@ -7,6 +7,3 @@ fields:
   config:
     required: false
   label: Name
-pages:
-- content/classes/condo.md
-- content/classes/house.md
