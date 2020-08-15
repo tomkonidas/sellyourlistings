@@ -4,13 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: content
-  label: Class
-  match: "**/*"
-  read_only: true
 - type: directory
-  path: content
+  path: content/services
   label: Services
   create: documents
   match: "**/*"
