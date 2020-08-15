@@ -1,59 +1,62 @@
 import { useState } from "react";
 import Transition from "./Transition";
 import Link from "next/link";
+import Container from "./Container";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="relative pt-6">
-      <nav className="relative max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6">
-        <div className="flex items-center flex-1">
-          <div className="flex items-center justify-between w-full md:w-auto">
-            <Link href="/">
-              <a aria-label="Home" className="cursive text-2xl">
-                SellYourListings
-              </a>
-            </Link>
-            <div className="-mr-2 flex items-center md:hidden">
-              <button
-                type="button"
-                onClick={() => setIsOpen(!isOpen)}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
-                id="main-menu"
-                aria-label="Main menu"
-                aria-haspopup="true"
-              >
-                <svg
-                  className="h-6 w-6"
-                  stroke="currentColor"
-                  fill="none"
-                  viewBox="0 0 24 24"
+      <Container>
+        <nav className="relative flex items-center justify-between">
+          <div className="flex items-center flex-1">
+            <div className="flex items-center justify-between w-full md:w-auto">
+              <Link href="/">
+                <a aria-label="Home" className="cursive text-2xl">
+                  SellYourListings
+                </a>
+              </Link>
+              <div className="-mr-2 flex items-center md:hidden">
+                <button
+                  type="button"
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                  id="main-menu"
+                  aria-label="Main menu"
+                  aria-haspopup="true"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                </svg>
-              </button>
+                  <svg
+                    className="h-6 w-6"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div className="hidden md:block md:ml-10">
+              <Link href="/services">
+                <a className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
+                  Services
+                </a>
+              </Link>
+              <Link href="/portfolio">
+                <a className="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
+                  Portfolio
+                </a>
+              </Link>
             </div>
           </div>
-          <div className="hidden md:block md:ml-10">
-            <Link href="/services">
-              <a className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
-                Services
-              </a>
-            </Link>
-            <Link href="/portfolio">
-              <a className="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
-                Portfolio
-              </a>
-            </Link>
-          </div>
-        </div>
-      </nav>
+        </nav>
+      </Container>
 
       <Transition
         show={isOpen}

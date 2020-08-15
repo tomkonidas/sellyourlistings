@@ -3,6 +3,7 @@ import { server } from "../config";
 import ServicesConfigurator from "../components/ServicesConfigurator";
 import Layout from "../components/Layout";
 import Navbar from "../components/NavBar";
+import Container from "../components/Container";
 
 const Services = ({ services, categories }) => {
   return (
@@ -16,10 +17,12 @@ const Services = ({ services, categories }) => {
       </Head>
       <Layout>
         <Navbar />
-        <ServicesConfigurator
-          servicesData={services}
-          categoriesData={categories}
-        />
+        <Container>
+          <ServicesConfigurator
+            servicesData={services}
+            categoriesData={categories}
+          />
+        </Container>
       </Layout>
     </>
   );
