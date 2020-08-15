@@ -51,3 +51,5 @@ fields:
     max: 
     labelField: 
   label: Services
+pages:
+- content/packages/deluxe_condo.md
