@@ -114,8 +114,8 @@ const Header = () => {
                 >
                   <img
                     className="w-full"
-                    src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                    alt="Woman making a sale"
+                    src="/img/tobias-BHKdFTBBDsE-unsplash.jpg"
+                    alt="Montreal"
                   />
                   <div className="absolute inset-0 w-full h-full flex items-center justify-center">
                     <svg
