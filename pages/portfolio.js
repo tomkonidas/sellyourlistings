@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
 import Navbar from "../components/NavBar";
+import Container from "../components/Container";
 
 const Portfolio = () => {
   return (
@@ -11,7 +12,9 @@ const Portfolio = () => {
       </Head>
       <Layout>
         <Navbar />
-        <h1>Portfolio</h1>
+        <Container>
+          <h1>Portfolio</h1>
+        </Container>
       </Layout>
     </>
   );
