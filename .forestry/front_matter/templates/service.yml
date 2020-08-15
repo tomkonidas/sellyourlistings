@@ -58,3 +58,5 @@ fields:
       file: 
       path: 
   label: Category
+pages:
+- content/services/property_photos_condo.md
