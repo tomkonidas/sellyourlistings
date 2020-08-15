@@ -1,4 +1,9 @@
+/* purgecss start ignore */
 @tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
 
 @import url("https://rsms.me/inter/inter.css");
 @import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
@@ -10,6 +15,3 @@
 ::selection {
   @apply bg-brand text-white;
 }
-
-@tailwind components;
-@tailwind utilities;
