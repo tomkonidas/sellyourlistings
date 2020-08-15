@@ -1,0 +1,33 @@
+---
+label: Service
+hide_body: true
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+  description: Name of the service
+- name: price
+  type: number
+  label: Price
+  description: Price of service
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+- name: class
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: classes
+      file: 
+      path: 
+  label: Class
