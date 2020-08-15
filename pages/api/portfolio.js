@@ -15,5 +15,12 @@ export default (req, res) => {
       matterport: "url",
       youtube: "url",
     },
+    {
+      id: 3,
+      name: "Address 3",
+      showcase: ["img1", "img2", "img3", "img4"],
+      matterport: "url",
+      youtube: "url",
+    },
   ]);
 };
