@@ -11,3 +11,7 @@
 .cursive {
   font-family: "Leckerli One", cursive;
 }
+
+::selection {
+  @apply bg-brand text-white;
+}
