@@ -9,6 +9,8 @@ sections:
   label: Class
   create: documents
   match: "**/*"
+  templates:
+  - class
 - type: directory
   path: content/services
   label: Services
