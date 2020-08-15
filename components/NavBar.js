@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Transition from "./Transition";
+import Link from "next/link";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,9 +10,11 @@ const NavBar = () => {
       <nav className="relative max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6">
         <div className="flex items-center flex-1">
           <div className="flex items-center justify-between w-full md:w-auto">
-            <a href="#" aria-label="Home" className="cursive text-2xl">
-              SellYourListings
-            </a>
+            <Link href="/">
+              <a aria-label="Home" className="cursive text-2xl">
+                SellYourListings
+              </a>
+            </Link>
             <div className="-mr-2 flex items-center md:hidden">
               <button
                 type="button"
@@ -38,18 +41,16 @@ const NavBar = () => {
             </div>
           </div>
           <div className="hidden md:block md:ml-10">
-            <a
-              href="#"
-              className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-            >
-              Services
-            </a>
-            <a
-              href="#"
-              className="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-            >
-              Portfolio
-            </a>
+            <Link href="/services">
+              <a className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
+                Services
+              </a>
+            </Link>
+            <Link href="/portfolio">
+              <a className="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
+                Portfolio
+              </a>
+            </Link>
           </div>
         </div>
       </nav>
@@ -99,20 +100,22 @@ const NavBar = () => {
                 </div>
               </div>
               <div className="px-2 pt-2 pb-3">
-                <a
-                  href="#"
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                  role="menuitem"
-                >
-                  Services
-                </a>
-                <a
-                  href="#"
-                  className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                  role="menuitem"
-                >
-                  Portfolio
-                </a>
+                <Link href="/services">
+                  <a
+                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                    role="menuitem"
+                  >
+                    Services
+                  </a>
+                </Link>
+                <Link href="/portfolio">
+                  <a
+                    className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                    role="menuitem"
+                  >
+                    Portfolio
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
