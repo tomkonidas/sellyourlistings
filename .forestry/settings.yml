@@ -4,9 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: content
-  label: Classes
+- type: directory
+  path: content/packages
+  label: Packages
+  create: documents
+  match: "**/*"
+  templates:
+  - package
 - type: directory
   path: content/services
   label: Services
