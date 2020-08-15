@@ -26,8 +26,8 @@ fields:
     required: false
     options: []
     source:
-      type: simple
-      section: 
+      type: pages
+      section: classes
       file: 
       path: 
   label: Class
