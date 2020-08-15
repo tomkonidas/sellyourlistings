@@ -16,9 +16,9 @@ const Portfolio = ({ portfolio }) => {
         <Navbar />
         <Container>
           <h1>Portfolio</h1>
-          {portfolio.map((property) => (
+          {/* {portfolio.map((property) => (
             <Property key={property.id} property={property} />
-          ))}
+          ))} */}
         </Container>
       </Layout>
     </>
