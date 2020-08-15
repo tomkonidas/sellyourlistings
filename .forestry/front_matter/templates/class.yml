@@ -9,3 +9,4 @@ fields:
   label: Name
 pages:
 - content/classes/condo.md
+- content/classes/house.md
