@@ -9,18 +9,23 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
   const [filterOut, setFilterOut] = useState("house");
   const [total, setTotal] = useState(0);
   const [isUpdatingTotal, setIsUpdatingTotal] = useState(false);
+  const [updatingTotalClass, setUpdatingTotalClass] = useState("");
 
   const handleServiceToggle = (id) => {
+    const service = services.find((service) => service.id === id);
+
+    if (service.isAdded) {
+      setTotal(total - service.price);
+      setUpdatingTotalClass("text-green-500");
+    } else {
+      setTotal(total + service.price);
+      setUpdatingTotalClass("text-brand");
+    }
+
     setIsUpdatingTotal(true);
     setTimeout(() => {
       setIsUpdatingTotal(false);
     }, 300);
-
-    const service = services.find((service) => service.id === id);
-
-    service.isAdded
-      ? setTotal(total - service.price)
-      : setTotal(total + service.price);
 
     const changedService = { ...service, isAdded: !service.isAdded };
     setServices(
@@ -33,7 +38,9 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
       <div>
         {categories.map((category) => (
           <div key={category.id} className="mb-4 py-2">
-            <h2 className="cursive text-xl py-2">{category.name}</h2>
+            <h2 className="border-b-8 border-gray-200 cursive text-xl py-2">
+              {category.name}
+            </h2>
             <div>
               {category.services.map((s) => (
                 <Service
@@ -51,7 +58,11 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
         className="border-t-4 border-dotted border-brand py-4 pr-4 flex justify-end items-center"
       >
         <div className="text-xl cursive mr-4">Total</div>
-        <div className={isUpdatingTotal ? "text-brand-dark" : ""}>
+        <div
+          className={`font-semibold ${
+            isUpdatingTotal ? updatingTotalClass : ""
+          }`}
+        >
           {total.toFixed(2)}
         </div>
       </div>
