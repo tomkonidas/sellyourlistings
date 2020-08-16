@@ -4,6 +4,7 @@ import ServicesConfigurator from "../components/ServicesConfigurator";
 import Layout from "../components/Layout";
 import Navbar from "../components/NavBar";
 import Container from "../components/Container";
+import Title from "../components/Title";
 
 const Services = ({ services, categories }) => {
   return (
@@ -18,6 +19,7 @@ const Services = ({ services, categories }) => {
       <Layout>
         <Navbar />
         <Container>
+          <Title>Services</Title>
           <ServicesConfigurator
             servicesData={services}
             categoriesData={categories}
