@@ -11,7 +11,7 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
     <div className="my-4">
       <div>
         {categories.map((category) => (
-          <div className="mb-2 py-2">
+          <div className="mb-4 py-2">
             <h2 className="cursive text-xl py-2" key={category.id}>
               {category.name}
             </h2>

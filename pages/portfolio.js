@@ -4,6 +4,7 @@ import Layout from "../components/Layout";
 import Navbar from "../components/NavBar";
 import Container from "../components/Container";
 import Property from "../components/Property";
+import Title from "../components/Title";
 
 const Portfolio = ({ portfolio }) => {
   return (
@@ -15,7 +16,7 @@ const Portfolio = ({ portfolio }) => {
       <Layout>
         <Navbar />
         <Container>
-          <h1>Portfolio</h1>
+          <Title>Portfolio</Title>
           {portfolio.map((property) => (
             <Property key={property.id} property={property} />
           ))}
