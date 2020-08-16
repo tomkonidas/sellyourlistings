@@ -11,7 +11,7 @@ const Portfolio = ({ portfolio }) => {
     <>
       <Head>
         <title>Portfolio :: Sell Your Listings</title>
-        <meta property="og:title" value="Portfolio :: Sell Your Listings" />
+        <meta name="og:title" content="Portfolio :: Sell Your Listings" />
       </Head>
       <Layout>
         <Navbar />

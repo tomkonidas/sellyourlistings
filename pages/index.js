@@ -11,8 +11,8 @@ const Home = ({ services, packages }) => {
           Sell Your Listings :: We help you sell your listings faster
         </title>
         <meta
-          property="og:title"
-          value="Sell Your Listings :: We help you sell your listings faster"
+          name="og:title"
+          content="Sell Your Listings :: We help you sell your listings faster"
         />
       </Head>
       <Layout>
