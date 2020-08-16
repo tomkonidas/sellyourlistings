@@ -9,7 +9,12 @@ const Service = ({ service, handleServiceToggle }) => {
   };
 
   return (
-    <div className="py-2 pr-4 pl-2 border-l-8 border-gray-200 hover:border-brand flex items-center justify-between cursor-default hover:bg-gray-100">
+    <div
+      onClick={handleToggle}
+      className={`py-2 pr-4 pl-2 border-l-8 border-gray-200 hover:border-gray-300 flex items-center justify-between cursor-pointer hover:bg-gray-100 ${
+        isOn ? "border-brand hover:border-brand" : "border-gray-200"
+      }`}
+    >
       <div>{service.name}</div>
       <div className="ml-auto mr-4">{service.price.toFixed(2)}</div>
 

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Service from "./Service";
 
 const ServicesConfigurator = ({ servicesData, categoriesData }) => {
@@ -8,8 +8,14 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
   const [categories, setCategories] = useState(categoriesData);
   const [filterOut, setFilterOut] = useState("house");
   const [total, setTotal] = useState(0);
+  const [isUpdatingTotal, setIsUpdatingTotal] = useState(false);
 
   const handleServiceToggle = (id) => {
+    setIsUpdatingTotal(true);
+    setTimeout(() => {
+      setIsUpdatingTotal(false);
+    }, 300);
+
     const service = services.find((service) => service.id === id);
 
     service.isAdded
@@ -40,9 +46,14 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
           </div>
         ))}
       </div>
-      <div className="border-t-4 border-dotted border-brand py-4 pr-4 flex justify-end items-center">
+      <div
+        id="total"
+        className="border-t-4 border-dotted border-brand py-4 pr-4 flex justify-end items-center"
+      >
         <div className="text-xl cursive mr-4">Total</div>
-        <div>{total.toFixed(2)}</div>
+        <div className={isUpdatingTotal ? "text-brand-dark" : ""}>
+          {total.toFixed(2)}
+        </div>
       </div>
     </div>
   );
