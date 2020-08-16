@@ -77,7 +77,7 @@ const NavBar = () => {
             >
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
-                  <span className="cursive text-xl">SellYourListings</span>
+                  <span className="cursive text-2xl">SellYourListings</span>
                 </div>
                 <div className="-mr-2">
                   <button
