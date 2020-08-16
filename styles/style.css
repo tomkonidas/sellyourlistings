@@ -11,7 +11,7 @@
 .cursive {
   font-family: "Leckerli One", cursive;
 }
-.star::after {
+.star::before {
   content: "*";
   @apply text-brand;
 }
