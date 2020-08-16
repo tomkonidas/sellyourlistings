@@ -11,7 +11,10 @@
 .cursive {
   font-family: "Leckerli One", cursive;
 }
-
+.star::after {
+  content: "*";
+  @apply text-brand;
+}
 ::selection {
   @apply bg-brand text-white;
 }

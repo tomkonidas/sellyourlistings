@@ -5,25 +5,24 @@ import Layout from "../components/Layout";
 import Navbar from "../components/NavBar";
 import Container from "../components/Container";
 import Title from "../components/Title";
+import SectionTitle from "../components/SectionTitle";
 
 const Services = ({ services, categories }) => {
   return (
     <>
       <Head>
-        <title>Services, Packages & Pricing :: Sell Your Listings</title>
-        <meta
-          property="og:title"
-          value="Services, Packages & Pricing :: Sell Your Listings"
-        />
+        <title>Services :: Sell Your Listings</title>
+        <meta property="og:title" value="Services :: Sell Your Listings" />
       </Head>
       <Layout>
         <Navbar />
         <Container>
-          <Title>Services</Title>
+          <SectionTitle>Services</SectionTitle>
           <ServicesConfigurator
             servicesData={services}
             categoriesData={categories}
           />
+          {/* <SectionTitle>Virtual Staging</SectionTitle> */}
         </Container>
       </Layout>
     </>

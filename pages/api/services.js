@@ -29,7 +29,7 @@ export default (req, res) => {
     },
     {
       id: 4,
-      name: "Virtual Home Staging*",
+      name: "Virtual Home Staging",
       price: 30.0,
       condo: true,
       house: true,
@@ -37,7 +37,8 @@ export default (req, res) => {
     },
     {
       id: 5,
-      name: "HQ 3D Virtual Tour*",
+      name: "HQ 3D Virtual Tour",
+      star: true,
       price: 250.0,
       condo: true,
       house: false,
@@ -46,7 +47,8 @@ export default (req, res) => {
     },
     {
       id: 6,
-      name: "HQ 3D Virtual Tour*",
+      name: "HQ 3D Virtual Tour",
+      star: true,
       price: 400.0,
       condo: false,
       house: true,
@@ -54,7 +56,8 @@ export default (req, res) => {
     },
     {
       id: 7,
-      name: "3D Virtual Tour*",
+      name: "3D Virtual Tour",
+      star: true,
       price: 135.0,
       condo: true,
       house: false,
@@ -63,7 +66,8 @@ export default (req, res) => {
     },
     {
       id: 8,
-      name: "3D Virtual Tour*",
+      name: "3D Virtual Tour",
+      star: true,
       price: 150.0,
       condo: false,
       house: true,

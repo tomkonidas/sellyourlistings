@@ -8,7 +8,6 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
   const [categories, setCategories] = useState(categoriesData);
   const [filterOut, setFilterOut] = useState("house");
   const [total, setTotal] = useState(0);
-  const [isUpdatingTotal, setIsUpdatingTotal] = useState(false);
   const [updatingTotalClass, setUpdatingTotalClass] = useState("");
 
   const handleServiceToggle = (id) => {
@@ -16,16 +15,15 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
 
     if (service.isAdded) {
       setTotal(total - service.price);
-      setUpdatingTotalClass("text-green-500");
+      setUpdatingTotalClass("text-brand");
     } else {
       setTotal(total + service.price);
-      setUpdatingTotalClass("text-brand");
+      setUpdatingTotalClass("text-green-500");
     }
 
-    setIsUpdatingTotal(true);
     setTimeout(() => {
-      setIsUpdatingTotal(false);
-    }, 300);
+      setUpdatingTotalClass("");
+    }, 200);
 
     const changedService = { ...service, isAdded: !service.isAdded };
     setServices(
@@ -34,7 +32,7 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
   };
 
   return (
-    <div className="my-4">
+    <div className="my-2">
       <div>
         {categories.map((category) => (
           <div key={category.id} className="mb-4 py-2">
@@ -58,12 +56,16 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
         <div className="text-xl cursive mr-4">Total</div>
         <div
           className={`font-semibold ${
-            isUpdatingTotal ? updatingTotalClass : ""
+            updatingTotalClass.length > 0 ? updatingTotalClass : ""
           }`}
         >
           {total.toFixed(2)}
         </div>
       </div>
+      <p className="text-gray-500 mb-8">
+        <span className="text-brand">*</span>The 3 first months of storage is
+        included in the price of virtual tours.
+      </p>
     </div>
   );
 };
