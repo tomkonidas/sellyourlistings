@@ -11,13 +11,13 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
   );
   const [categories, setCategories] = useState(
     categoriesData.map((category) => {
-      const servicesToDisplay = services
-        .filter((service) => service.display)
-        .map((s) => s.id);
       return {
         ...category,
-        services: category.services.filter((s) =>
-          servicesToDisplay.includes(s)
+        servicesToDisplay: category.services.filter((service) =>
+          services
+            .filter((sf) => sf.display)
+            .map((s) => s.id)
+            .includes(service)
         ),
       };
     })
@@ -27,41 +27,37 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
   const [updatingTotalClass, setUpdatingTotalClass] = useState("");
 
   const toggleBuildType = () => {
-    if (toDisplay === "house") {
-      setToDisplay("condo");
-    } else {
-      setToDisplay("house");
-    }
+    setToDisplay(toDisplay === "house" ? "condo" : "house");
     updateServiceBuildType();
     updateCategoryServices();
-  };
-
-  const updateCategoryServices = () => {
-    const servicesToDisplay = services
-      .filter((service) => service.display)
-      .map((s) => s.id);
-
-    setCategories(
-      categoriesData.map((category) => {
-        return {
-          ...category,
-          services: category.services.filter((s) =>
-            servicesToDisplay.includes(s)
-          ),
-        };
-      })
+    setTotal(
+      services
+        .filter((sf) => sf.isAdded && sf.display)
+        .map((s) => s.price)
+        .reduce((acc, sr) => acc + sr, 0)
     );
   };
 
   const updateServiceBuildType = () => {
     setServices(
       services.map((service) => {
-        let isAdded = service.isAdded;
-        if (isAdded && service[toDisplay] !== service.display) {
-          isAdded = false;
-          handleServiceToggle(service.id);
-        }
-        return { ...service, isAdded: isAdded, display: service[toDisplay] };
+        return { ...service, display: service[toDisplay] };
+      })
+    );
+  };
+
+  const updateCategoryServices = () => {
+    setCategories(
+      categories.map((category) => {
+        return {
+          ...category,
+          servicesToDisplay: category.services.filter((service) =>
+            services
+              .filter((sf) => sf.display)
+              .map((s) => s.id)
+              .includes(service)
+          ),
+        };
       })
     );
   };
@@ -69,21 +65,22 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
   const handleServiceToggle = (id) => {
     const service = services.find((service) => service.id === id);
 
-    if (service.isAdded) {
-      setTotal(total - service.price);
-      setUpdatingTotalClass("text-brand");
-    } else {
-      setTotal(total + service.price);
-      setUpdatingTotalClass("text-green-500");
-    }
-
+    setUpdatingTotalClass(service.isAdded ? "text-brand" : "text-green-500");
     setTimeout(() => {
       setUpdatingTotalClass("");
     }, 200);
 
     const changedService = { ...service, isAdded: !service.isAdded };
-    setServices(
-      services.map((service) => (service.id !== id ? service : changedService))
+    const newServices = services.map((ser) =>
+      ser.id !== id ? ser : changedService
+    );
+    setServices(newServices);
+
+    setTotal(
+      newServices
+        .filter((sf) => sf.isAdded)
+        .map((s) => s.price)
+        .reduce((acc, sr) => acc + sr, 0)
     );
   };
 
@@ -119,7 +116,7 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
           <div key={category.id} className="mb-4 py-2">
             <h2 className="cursive text-xl py-2">{category.name}</h2>
             <div>
-              {category.services.map((s) => (
+              {category.servicesToDisplay.map((s) => (
                 <Service
                   key={s}
                   service={services.find((service) => service.id === s)}
