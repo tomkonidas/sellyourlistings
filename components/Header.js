@@ -114,7 +114,7 @@ const Header = () => {
                 >
                   <img
                     className="w-full"
-                    src="/img/tobias-BHKdFTBBDsE-unsplash.jpg"
+                    src={require("../public/img/tobias-BHKdFTBBDsE-unsplash.jpg")}
                     alt="Montreal"
                   />
                   <div className="absolute inset-0 w-full h-full flex items-center justify-center">
