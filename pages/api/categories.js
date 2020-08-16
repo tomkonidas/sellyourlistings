@@ -17,7 +17,7 @@ export default (req, res) => {
       services: [9, 10, 11, 12],
     },
     {
-      id: 3,
+      id: 4,
       name: "Addons",
       services: [13, 14],
     },
