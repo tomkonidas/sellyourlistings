@@ -41,7 +41,7 @@ export default (req, res) => {
       id: 7,
       name: "Full Video",
       price: { condo: 370.0, house: 470.0 },
-      services: { condo: [10, 11, 12], house: [10, 11, 12] },
+      services: { condo: [10, 11], house: [10, 12] },
     },
     {
       id: 8,

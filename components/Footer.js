@@ -1,7 +1,7 @@
 import Container from "./Container";
 
 const Footer = () => (
-  <div className="bg-brand">
+  <div className="bg-brand mt-12">
     <Container>
       <div className="py-12 md:flex md:items-center md:justify-between">
         <div className="flex justify-center md:order-2">
