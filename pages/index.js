@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Layout from "../components/Layout";
+import FeaturedPackages from "../components/FeaturedPackages";
 import { server } from "../config";
 
 const Home = ({ services, packages }) => {
@@ -17,6 +18,12 @@ const Home = ({ services, packages }) => {
       </Head>
       <Layout>
         <Header />
+        <FeaturedPackages
+          services={services}
+          leftPackage={packages.find((p) => p.id === 5)}
+          mainPackage={packages.find((p) => p.id === 1)}
+          rightPackage={packages.find((p) => p.id === 3)}
+        />
       </Layout>
     </div>
   );
