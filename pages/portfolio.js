@@ -20,6 +20,7 @@ const Portfolio = ({ portfolio }) => {
           {portfolio.map((property) => (
             <Property key={property.id} property={property} />
           ))}
+          <div className="mt-8"></div>
         </Container>
       </Layout>
     </>
