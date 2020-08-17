@@ -27,9 +27,9 @@ export default (req, res) => {
       id: 3,
       name: "31650 Rue Saint Louis",
       showcase: [
-        require("../../images/31650_rue_saint_louis_1.JPG"),
-        require("../../images/31650_rue_saint_louis_2.JPG"),
-        require("../../images/31650_rue_saint_louis_3.JPG"),
+        require("../../images/31650_rue_saint_louis_1.jpg"),
+        require("../../images/31650_rue_saint_louis_2.jpg"),
+        require("../../images/31650_rue_saint_louis_3.jpg"),
       ],
       matterport: "",
       youtube: "",

@@ -7,6 +7,7 @@ import Property from "../components/Property";
 import Title from "../components/Title";
 
 const Portfolio = ({ portfolio }) => {
+  console.log(portfolio);
   return (
     <>
       <Head>
