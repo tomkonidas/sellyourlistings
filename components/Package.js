@@ -34,6 +34,34 @@ const Package = ({ packageData, services }) => (
             </p>
           </li>
         ))}
+      {/* {services
+        .filter((s) => packageData.services.special.condo.includes(s.id))
+        .map((service) => (
+          <li key={service.id} className="mb-4 flex items-start">
+            <div className="flex-shrink-0">
+              <svg
+                className="h-6 w-6 text-indigo-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+            </div>
+            <p
+              className={`ml-3 text-base leading-6 font-medium text-gray-500 ${
+                service.star && "star"
+              }`}
+            >
+              {service.name}
+            </p>
+          </li>
+        ))} */}
     </ul>
     <div className="border-t border-gray-200 bg-gray-50">
       <div className="-mt-px flex">
