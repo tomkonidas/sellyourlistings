@@ -4,8 +4,6 @@ export default (req, res) => {
     {
       id: 1,
       name: "Deluxe",
-      condo: true,
-      house: true,
       condoPrice: 570.0,
       housePrice: 675.0,
       services: [1, 2, 7, 8, 9, 11, 12],
@@ -13,8 +11,6 @@ export default (req, res) => {
     {
       id: 2,
       name: "Deluxe Plus",
-      condo: true,
-      house: true,
       condoPrice: 680.0,
       housePrice: 850.0,
       services: [1, 2, 5, 6, 10, 12],
@@ -22,8 +18,6 @@ export default (req, res) => {
     {
       id: 3,
       name: "Full Coverage",
-      condo: true,
-      house: true,
       condoPrice: 385.0,
       housePrice: 450.0,
       services: [1, 2, 7, 8, 9],
@@ -31,8 +25,6 @@ export default (req, res) => {
     {
       id: 4,
       name: "Full Coverage Plus",
-      condo: true,
-      house: true,
       condoPrice: 495.0,
       housePrice: 675.0,
       services: [1, 2, 5, 6, 10],
@@ -40,8 +32,6 @@ export default (req, res) => {
     {
       id: 5,
       name: "Basics",
-      condo: true,
-      house: true,
       condoPrice: 220.0,
       housePrice: 270.0,
       services: [1, 2, 7, 8],
@@ -49,8 +39,6 @@ export default (req, res) => {
     {
       id: 6,
       name: "Basics Plus",
-      condo: true,
-      house: true,
       condoPrice: 320.0,
       housePrice: 450.0,
       services: [1, 2, 5, 6],
@@ -58,8 +46,6 @@ export default (req, res) => {
     {
       id: 7,
       name: "Full Video",
-      condo: true,
-      house: true,
       condoPrice: 370.0,
       housePrice: 470.0,
       services: [10, 11, 12],
@@ -67,8 +53,6 @@ export default (req, res) => {
     {
       id: 8,
       name: "Duo",
-      condo: true,
-      house: true,
       condoPrice: 285.0,
       housePrice: 365.0,
       services: [1, 2, 0, 11, 12],
