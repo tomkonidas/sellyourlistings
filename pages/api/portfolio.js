@@ -34,16 +34,16 @@ export default (req, res) => {
       matterport: "",
       youtube: "",
     },
-    // {
-    //   id: 4,
-    //   name: "3906 St. Andre",
-    //   showcase: [
-    //     require("../../images/3906_st_andre_1.JPG"),
-    //     require("../../images/3906_st_andre_2.JPG"),
-    //     require("../../images/3906_st_andre_3.JPG"),
-    //   ],
-    //   matterport: "",
-    //   youtube: "",
-    // },
+    {
+      id: 4,
+      name: "3906 St. Andre",
+      showcase: [
+        require("../../images/3906_st_andre_1.JPG"),
+        require("../../images/3906_st_andre_2.JPG"),
+        require("../../images/3906_st_andre_3.JPG"),
+      ],
+      matterport: "",
+      youtube: "",
+    },
   ]);
 };
