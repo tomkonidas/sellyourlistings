@@ -5,7 +5,6 @@ import Layout from "../components/Layout";
 import Navbar from "../components/NavBar";
 import Container from "../components/Container";
 import Title from "../components/Title";
-import SectionTitle from "../components/SectionTitle";
 
 const Services = ({ services, categories }) => {
   return (
@@ -17,7 +16,7 @@ const Services = ({ services, categories }) => {
       <Layout>
         <Navbar />
         <Container>
-          <SectionTitle>Services</SectionTitle>
+          <Title>Services</Title>
           <ServicesConfigurator
             servicesData={services}
             categoriesData={categories}
