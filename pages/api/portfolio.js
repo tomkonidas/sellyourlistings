@@ -12,17 +12,17 @@ export default (req, res) => {
       matterport: "",
       youtube: "https://www.youtube.com/embed/aw_TksVa-q0",
     },
-    // {
-    //   id: 2,
-    //   name: "4572 de L'esplanade",
-    //   showcase: [
-    //     require("../../images/4572_esplanade_1.JPG"),
-    //     require("../../images/4572_esplanade_2.JPG"),
-    //     require("../../images/4572_esplanade_3.JPG"),
-    //   ],
-    //   matterport: "",
-    //   youtube: "",
-    // },
+    {
+      id: 2,
+      name: "4572 de L'esplanade",
+      showcase: [
+        require("../../images/4572_esplanade_1.JPG"),
+        require("../../images/4572_esplanade_2.JPG"),
+        require("../../images/4572_esplanade_3.JPG"),
+      ],
+      matterport: "",
+      youtube: "",
+    },
     // {
     //   id: 3,
     //   name: "31650 Rue Saint Louis",
