@@ -19,12 +19,13 @@ const Home = ({ services, packages }) => {
       </Head>
       <Layout>
         <Header />
-        {/* <FeaturedPackages
+        <FeaturedPackages
+          build={"condo"}
           services={services}
           leftPackage={packages.find((p) => p.id === 5)}
           mainPackage={packages.find((p) => p.id === 1)}
           rightPackage={packages.find((p) => p.id === 3)}
-        /> */}
+        />
         <Container>
           <p className="text-sm text-gray-500 mb-8 text-center md:text-right">
             <span className="text-brand">*</span>The 3 first months of storage

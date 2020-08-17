@@ -1,4 +1,5 @@
 const FeaturedPackages = ({
+  build,
   services,
   leftPackage,
   mainPackage,
@@ -41,7 +42,7 @@ const FeaturedPackages = ({
                             $
                           </span>
                           <span className="font-extrabold">
-                            {leftPackage.condoPrice}
+                            {leftPackage.price[build]}
                           </span>
                         </span>
                         <span className="text-xl leading-7 font-medium text-gray-500">
@@ -53,9 +54,8 @@ const FeaturedPackages = ({
                   <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
                     <ul>
                       {services
-                        .filter(
-                          (sf) =>
-                            leftPackage.services.includes(sf.id) && sf.condo
+                        .filter((sf) =>
+                          leftPackage.services[build].includes(sf.id)
                         )
                         .map((service) => (
                           <li
@@ -79,7 +79,7 @@ const FeaturedPackages = ({
                             </div>
                             <p
                               className={`ml-3 text-base leading-6 font-medium text-gray-500 ${
-                                service.star ? "star" : ""
+                                service.star && "star"
                               }`}
                             >
                               {service.name}
@@ -126,7 +126,7 @@ const FeaturedPackages = ({
                           $
                         </span>
                         <span className="font-extrabold">
-                          {mainPackage.condoPrice}
+                          {mainPackage.price[build]}
                         </span>
                       </span>
                       <span className="text-2xl leading-8 font-medium text-gray-500">
@@ -138,8 +138,8 @@ const FeaturedPackages = ({
                 <div className="border-t-2 border-gray-100 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
                   <ul>
                     {services
-                      .filter(
-                        (sf) => mainPackage.services.includes(sf.id) && sf.condo
+                      .filter((sf) =>
+                        mainPackage.services[build].includes(sf.id)
                       )
                       .map((service) => (
                         <li key={service.id} className="mb-4 flex items-start">
@@ -160,7 +160,7 @@ const FeaturedPackages = ({
                           </div>
                           <p
                             className={`ml-3 text-base leading-6 font-medium text-gray-500 ${
-                              service.star ? "star" : ""
+                              service.star && "star"
                             }`}
                           >
                             {service.name}
@@ -199,7 +199,7 @@ const FeaturedPackages = ({
                             $
                           </span>
                           <span className="font-extrabold">
-                            {rightPackage.condoPrice}
+                            {rightPackage.price[build]}
                           </span>
                         </span>
                         <span className="text-xl leading-7 font-medium text-gray-500">
@@ -211,9 +211,8 @@ const FeaturedPackages = ({
                   <div className="flex-1 flex flex-col justify-between border-t-2 border-gray-100 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
                     <ul>
                       {services
-                        .filter(
-                          (sf) =>
-                            rightPackage.services.includes(sf.id) && sf.condo
+                        .filter((sf) =>
+                          rightPackage.services[build].includes(sf.id)
                         )
                         .map((service) => (
                           <li
@@ -237,7 +236,7 @@ const FeaturedPackages = ({
                             </div>
                             <p
                               className={`ml-3 text-base leading-6 font-medium text-gray-500 ${
-                                service.star ? "star" : ""
+                                service.star && "star"
                               }`}
                             >
                               {service.name}
