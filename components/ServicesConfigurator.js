@@ -27,38 +27,31 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
   const [updatingTotalClass, setUpdatingTotalClass] = useState("");
 
   const toggleBuildType = () => {
-    setToDisplay(toDisplay === "house" ? "condo" : "house");
-    updateServiceBuildType();
-    updateCategoryServices();
-    setTotal(
-      services
-        .filter((sf) => sf.isAdded && sf.display)
-        .map((s) => s.price)
-        .reduce((acc, sr) => acc + sr, 0)
-    );
-  };
+    const newToDisplay = toDisplay === "house" ? "condo" : "house";
+    const newServices = services.map((service) => {
+      return { ...service, display: service[newToDisplay] };
+    });
 
-  const updateServiceBuildType = () => {
-    setServices(
-      services.map((service) => {
-        return { ...service, display: service[toDisplay] };
-      })
-    );
-  };
-
-  const updateCategoryServices = () => {
+    setToDisplay(newToDisplay);
+    setServices(newServices);
     setCategories(
       categories.map((category) => {
         return {
           ...category,
           servicesToDisplay: category.services.filter((service) =>
-            services
+            newServices
               .filter((sf) => sf.display)
               .map((s) => s.id)
               .includes(service)
           ),
         };
       })
+    );
+    setTotal(
+      newServices
+        .filter((sf) => sf.isAdded && sf.display)
+        .map((s) => s.price)
+        .reduce((acc, sr) => acc + sr, 0)
     );
   };
 
