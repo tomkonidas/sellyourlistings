@@ -17,9 +17,9 @@ const Portfolio = ({ portfolio }) => {
         <Navbar />
         <Container>
           <Title>Portfolio</Title>
-          {portfolio.map((property) => (
+          {/* {portfolio.map((property) => (
             <Property key={property.id} property={property} />
-          ))}
+          ))} */}
           <div className="mt-8"></div>
         </Container>
       </Layout>
