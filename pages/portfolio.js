@@ -28,14 +28,13 @@ const Portfolio = ({ portfolio }) => {
 };
 
 export async function getStaticProps() {
-  const portfolioRes = await fetch(`${server}/api/portfolio`);
-  const portfolio = await portfolioRes.json();
-
-  return {
-    props: {
-      portfolio,
-    },
-  };
+  // const portfolioRes = await fetch(`${server}/api/portfolio`);
+  // const portfolio = await portfolioRes.json();
+  // return {
+  //   props: {
+  //     portfolio,
+  //   },
+  // };
 }
 
 export default Portfolio;
