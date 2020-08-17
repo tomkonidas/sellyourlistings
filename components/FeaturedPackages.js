@@ -7,11 +7,11 @@ const FeaturedPackages = ({
   <div className="bg-gray-900">
     <div className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
       <div className="text-center">
-        <h2 className="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">
-          Pricing
+        <h2 className="mb-2 text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">
+          Featured Packages
         </h2>
         <p className="mt- text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
-          The right price for you, whatever your needs
+          The right package for you, whatever your needs
         </p>
         <p className="mt-3 max-w-4xl mx-auto text-xl leading-7 text-gray-300 sm:mt-5 sm:text-2xl sm:leading-8">
           If no solution meets your needs, please contact us for a custom plan.
@@ -30,7 +30,7 @@ const FeaturedPackages = ({
                   <div className="bg-white px-6 py-10">
                     <div>
                       <h3
-                        className="text-center text-2xl leading-8 font-medium text-gray-900"
+                        className="text-center text-2xl leading-8 font-medium text-gray-900 cursive"
                         id="tier-hobby"
                       >
                         {leftPackage.name}
@@ -74,7 +74,11 @@ const FeaturedPackages = ({
                                 />
                               </svg>
                             </div>
-                            <p className="ml-3 text-base leading-6 font-medium text-gray-500">
+                            <p
+                              className={`ml-3 text-base leading-6 font-medium text-gray-500 ${
+                                service.star ? "star" : ""
+                              }`}
+                            >
                               {service.name}
                             </p>
                           </li>
@@ -108,7 +112,7 @@ const FeaturedPackages = ({
                 <div className="bg-white rounded-t-lg px-6 pt-12 pb-10">
                   <div>
                     <h3
-                      className="text-center text-3xl leading-9 font-semibold text-gray-900 sm:-mx-6"
+                      className="text-center text-3xl leading-9 font-semibold text-gray-900 sm:-mx-6 cursive"
                       id="tier-growth"
                     >
                       {mainPackage.name}
@@ -151,7 +155,11 @@ const FeaturedPackages = ({
                               />
                             </svg>
                           </div>
-                          <p className="ml-3 text-base leading-6 font-medium text-gray-500">
+                          <p
+                            className={`ml-3 text-base leading-6 font-medium text-gray-500 ${
+                              service.star ? "star" : ""
+                            }`}
+                          >
                             {service.name}
                           </p>
                         </li>
@@ -177,7 +185,7 @@ const FeaturedPackages = ({
                   <div className="bg-white px-6 py-10">
                     <div>
                       <h3
-                        className="text-center text-2xl leading-8 font-medium text-gray-900"
+                        className="text-center text-2xl leading-8 font-medium text-gray-900 cursive"
                         id="tier-scale"
                       >
                         {rightPackage.name}
@@ -221,7 +229,11 @@ const FeaturedPackages = ({
                                 />
                               </svg>
                             </div>
-                            <p className="ml-3 text-base leading-6 font-medium text-gray-500">
+                            <p
+                              className={`ml-3 text-base leading-6 font-medium text-gray-500 ${
+                                service.star ? "star" : ""
+                              }`}
+                            >
                               {service.name}
                             </p>
                           </li>

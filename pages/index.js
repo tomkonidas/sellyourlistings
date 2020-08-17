@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Layout from "../components/Layout";
+import Container from "../components/Container";
 import FeaturedPackages from "../components/FeaturedPackages";
 import { server } from "../config";
 
@@ -24,6 +25,12 @@ const Home = ({ services, packages }) => {
           mainPackage={packages.find((p) => p.id === 1)}
           rightPackage={packages.find((p) => p.id === 3)}
         />
+        <Container>
+          <p className="text-sm text-gray-500 mb-8 text-right">
+            <span className="text-brand">*</span>The 3 first months of storage
+            is included in the price of virtual tours.
+          </p>
+        </Container>
       </Layout>
     </div>
   );
