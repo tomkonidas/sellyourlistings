@@ -141,7 +141,7 @@ const ServicesConfigurator = ({ servicesData, categoriesData }) => {
             {total.toFixed(2)}
           </div>
         </div>
-        <p className="text-gray-500 mb-8">
+        <p className="text-sm text-gray-500 mb-8">
           <span className="text-brand">*</span>The 3 first months of storage is
           included in the price of virtual tours.
         </p>
