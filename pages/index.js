@@ -26,7 +26,7 @@ const Home = ({ services, packages }) => {
           rightPackage={packages.find((p) => p.id === 3)}
         />
         <Container>
-          <p className="text-sm text-gray-500 mb-8 text-right">
+          <p className="text-sm text-gray-500 mb-8 text-center md:text-right">
             <span className="text-brand">*</span>The 3 first months of storage
             is included in the price of virtual tours.
           </p>
