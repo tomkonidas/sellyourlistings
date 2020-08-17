@@ -40,9 +40,9 @@ const Package = ({ packageData, services }) => (
         <div className="w-0 flex-1 flex border-r border-gray-200">
           <a
             href="#"
-            className="relative -mr-px w-0 flex-1 flex flex-col items-center justify-center py-4 text-sm leading-5 text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10 transition ease-in-out duration-150"
+            className="relative -mr-px w-0 flex-1 flex flex-col items-center justify-center py-4 text-sm leading-5 bg-brand text-gray-100 font-medium border border-transparent rounded-bl-lg hover:bg-brand-light hover:text-white focus:outline-none focus:shadow-outline-blue focus:border-indigo-300 focus:z-10 transition ease-in-out duration-150"
           >
-            <span className="px-3 flex items-start text-2xl leading-none tracking-tight text-gray-900">
+            <span className="px-3 flex items-start text-2xl leading-none tracking-tight">
               <span className="mr-1 text-sm font-medium">$</span>
               <span className="font-extrabold">{packageData.price.condo}</span>
             </span>
@@ -52,9 +52,9 @@ const Package = ({ packageData, services }) => (
         <div className="-ml-px w-0 flex-1 flex">
           <a
             href="#"
-            className="relative w-0 flex-1 flex flex-col items-center justify-center py-4 text-sm leading-5 text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10 transition ease-in-out duration-150"
+            className="relative w-0 flex-1 flex flex-col items-center justify-center py-4 text-sm leading-5  bg-brand text-gray-100 font-medium border border-transparent rounded-br-lg hover:bg-brand-light hover:text-white focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10 transition ease-in-out duration-150"
           >
-            <span className="px-3 flex items-start text-2xl leading-none tracking-tight text-gray-900">
+            <span className="px-3 flex items-start text-2xl leading-none tracking-tight">
               <span className="mr-1 text-sm font-medium">$</span>
               <span className="font-extrabold">{packageData.price.house}</span>
             </span>
