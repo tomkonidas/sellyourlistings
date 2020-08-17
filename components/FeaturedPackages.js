@@ -58,7 +58,10 @@ const FeaturedPackages = ({
                             leftPackage.services.includes(sf.id) && sf.condo
                         )
                         .map((service) => (
-                          <li className="mb-4 flex items-start">
+                          <li
+                            key={service.id}
+                            className="mb-4 flex items-start"
+                          >
                             <div className="flex-shrink-0">
                               <svg
                                 className="h-6 w-6 text-indigo-500"
@@ -139,7 +142,7 @@ const FeaturedPackages = ({
                         (sf) => mainPackage.services.includes(sf.id) && sf.condo
                       )
                       .map((service) => (
-                        <li className="mb-4 flex items-start">
+                        <li key={service.id} className="mb-4 flex items-start">
                           <div className="flex-shrink-0">
                             <svg
                               className="h-6 w-6 text-indigo-500"
@@ -213,7 +216,10 @@ const FeaturedPackages = ({
                             rightPackage.services.includes(sf.id) && sf.condo
                         )
                         .map((service) => (
-                          <li className="mb-4 flex items-start">
+                          <li
+                            key={service.id}
+                            className="mb-4 flex items-start"
+                          >
                             <div className="flex-shrink-0">
                               <svg
                                 className="h-6 w-6 text-indigo-500"
