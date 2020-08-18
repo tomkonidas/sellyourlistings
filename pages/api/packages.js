@@ -6,8 +6,8 @@ export default (req, res) => {
       name: "Deluxe",
       price: { condo: 570.0, house: 675.0 },
       services: {
-        condo: [1, 7, 9, 10, 11],
-        house: [2, 8, 9, 10, 11],
+        condo: [1, 7, 9, 11],
+        house: [2, 8, 9, 11],
         special: { condo: [], house: [] },
       },
     },
