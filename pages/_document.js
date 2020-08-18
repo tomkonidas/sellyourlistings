@@ -10,6 +10,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
