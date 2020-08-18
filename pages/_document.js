@@ -28,7 +28,6 @@ class MyDocument extends Document {
             We offer the most affordable prices to help real estate agents. "
           />
           {/* <meta name="twitter:creator" content="@author_handle" /> */}
-          {/* Twitter Summary card images must be at least 120x120px */}
           <meta
             name="twitter:image"
             content="https://sellyourlistings.ca/og.jpg"
@@ -49,7 +48,7 @@ class MyDocument extends Document {
             The areas we operate in are the Greater Montreal, Laval, Quebec, Ottawa and Gatineau."
           />
           <meta property="og:site_name" content="Sell Your Listings" />
-          {/* <meta property="fb:admins" content="Facebook numeric ID" /> */}
+          {/* <meta property="fb:app_id" content="Facebook numeric ID" /> */}
         </Head>
         <body>
           <Main />

@@ -11,7 +11,7 @@ const Services = ({ services, categories }) => {
     <>
       <Head>
         <title>Services :: Sell Your Listings</title>
-        <meta name="og:title" content="Services :: Sell Your Listings" />
+        <meta property="og:title" content="Services :: Sell Your Listings" />
       </Head>
       <Layout>
         <Navbar />
