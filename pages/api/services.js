@@ -75,7 +75,7 @@ export default (req, res) => {
     },
     {
       id: 9,
-      name: "Drone Video",
+      name: "Aerial Drone Video",
       price: 200.0,
       condo: true,
       house: true,
