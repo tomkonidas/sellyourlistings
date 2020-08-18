@@ -62,7 +62,7 @@ const Package = ({ packageData, services }) => (
                 {service.name}
               </p>
             </div>
-            <div>
+            <div className="flex sm:justify-center">
               {packageData.services.special.condo.length !== index + 1 && (
                 <span className="font-bold text-indigo-500"> or</span>
               )}
