@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Layout from "../components/Layout";
 import Container from "../components/Container";
 import Packages from "../components/Packages";
+import SectionTitle from "../components/SectionTitle";
 import FeaturedPackages from "../components/FeaturedPackages";
 import { server } from "../config";
 
@@ -28,6 +29,8 @@ const Home = ({ services, packages }) => {
           rightPackage={packages.find((p) => p.id === 3)}
         />
         <Container>
+          <SectionTitle>All Packages</SectionTitle>
+          <div id="packages"></div>
           <Packages services={services} packages={packages} />
           <p className="text-sm text-gray-500 my-8 text-center md:text-right">
             <span className="text-brand">*</span>The 3 first months of storage

@@ -43,8 +43,13 @@ const NavBar = () => {
               </div>
             </div>
             <div className="hidden md:block md:ml-10">
-              <Link href="/services">
+              <Link href="/#packages">
                 <a className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
+                  Packages
+                </a>
+              </Link>
+              <Link href="/services">
+                <a className="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
                   Services
                 </a>
               </Link>
@@ -103,6 +108,22 @@ const NavBar = () => {
                 </div>
               </div>
               <div className="px-2 pt-2 pb-3">
+                <Link href="/">
+                  <a
+                    className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                    role="menuitem"
+                  >
+                    Home
+                  </a>
+                </Link>
+                <Link href="/#packages">
+                  <a
+                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                    role="menuitem"
+                  >
+                    Packages
+                  </a>
+                </Link>
                 <Link href="/services">
                   <a
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
@@ -113,7 +134,7 @@ const NavBar = () => {
                 </Link>
                 <Link href="/portfolio">
                   <a
-                    className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     role="menuitem"
                   >
                     Portfolio
