@@ -78,7 +78,7 @@ export default (req, res) => {
       services: {
         condo: [1],
         house: [2],
-        special: { condo: [10, 11], house: [10, 12] },
+        special: { condo: [9, 11], house: [9, 12] },
       },
     },
   ]);
