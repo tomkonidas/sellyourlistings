@@ -28,14 +28,20 @@ class MyDocument extends Document {
             We offer the most affordable prices to help real estate agents. "
           />
           {/* <meta name="twitter:creator" content="@author_handle" /> */}
-          {/* Twitter Summary card images must be at least 120x120px
-          <meta name="twitter:image" content="http://www.example.com/image.jpg"> */}
+          {/* Twitter Summary card images must be at least 120x120px */}
+          <meta
+            name="twitter:image"
+            content="https://sellyourlistings.ca/og.jpg"
+          />
 
           {/* Open Graph data */}
           <meta property="og:title" content="Sell Your Listings" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://sellyourlistings.ca" />
-          {/* <meta property="og:image" content="http://example.com/image.jpg" /> */}
+          <meta
+            property="og:image"
+            content="https://sellyourlistings.ca/og.jpg"
+          />
           <meta
             property="og:description"
             content="3D dollhouse, drone and interior videos, property photos and social media management. 
