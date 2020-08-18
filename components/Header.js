@@ -2,7 +2,7 @@ import Navbar from "./NavBar";
 
 const Header = () => {
   return (
-    <div className="relative bg-white overflow-hidden">
+    <div className="pb-4 relative bg-white overflow-hidden">
       <div className="hidden lg:block lg:absolute lg:inset-0">
         <svg
           className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8"
