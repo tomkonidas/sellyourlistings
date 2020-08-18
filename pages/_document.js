@@ -35,7 +35,7 @@ class MyDocument extends Document {
           {/* Open Graph data */}
           <meta property="og:title" content="Sell Your Listings" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://seellyourlistings.ca" />
+          <meta property="og:url" content="https://sellyourlistings.ca" />
           {/* <meta property="og:image" content="http://example.com/image.jpg" /> */}
           <meta
             property="og:description"
