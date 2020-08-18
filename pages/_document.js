@@ -11,8 +11,6 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <meta
             name="description"
             content="3D dollhouse, drone and interior videos, property photos and social media management. 
