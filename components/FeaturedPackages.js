@@ -86,6 +86,47 @@ const FeaturedPackages = ({
                             </p>
                           </li>
                         ))}
+                      {services
+                        .filter((s) =>
+                          leftPackage.services.special.condo.includes(s.id)
+                        )
+                        .map((service, index) => (
+                          <li key={service.id} className="flex flex-col">
+                            <div className="flex items-start">
+                              <div className="flex-shrink-0">
+                                <svg
+                                  fill="none"
+                                  viewBox="0 0 24 24"
+                                  stroke="currentColor"
+                                  className="h-6 w-6 text-indigo-500"
+                                >
+                                  <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                                  />
+                                </svg>
+                              </div>
+                              <p
+                                className={`ml-3 text-base leading-6 font-medium text-gray-500 ${
+                                  service.star && "star"
+                                }`}
+                              >
+                                {service.name}
+                              </p>
+                            </div>
+                            <div>
+                              {leftPackage.services.special.condo.length !==
+                                index + 1 && (
+                                <span className="font-bold text-indigo-500">
+                                  {" "}
+                                  or
+                                </span>
+                              )}
+                            </div>
+                          </li>
+                        ))}
                     </ul>
                     <div className="mt-8">
                       <div className="rounded-lg shadow-md">
@@ -167,6 +208,47 @@ const FeaturedPackages = ({
                           </p>
                         </li>
                       ))}
+                    {services
+                      .filter((s) =>
+                        mainPackage.services.special.condo.includes(s.id)
+                      )
+                      .map((service, index) => (
+                        <li key={service.id} className="flex flex-col">
+                          <div className="flex items-start">
+                            <div className="flex-shrink-0">
+                              <svg
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                className="h-6 w-6 text-indigo-500"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                                />
+                              </svg>
+                            </div>
+                            <p
+                              className={`ml-3 text-base leading-6 font-medium text-gray-500 ${
+                                service.star && "star"
+                              }`}
+                            >
+                              {service.name}
+                            </p>
+                          </div>
+                          <div>
+                            {mainPackage.services.special.condo.length !==
+                              index + 1 && (
+                              <span className="font-bold text-indigo-500">
+                                {" "}
+                                or
+                              </span>
+                            )}
+                          </div>
+                        </li>
+                      ))}
                   </ul>
                   <div className="mt-10">
                     <div className="rounded-lg shadow-md">
@@ -241,6 +323,47 @@ const FeaturedPackages = ({
                             >
                               {service.name}
                             </p>
+                          </li>
+                        ))}
+                      {services
+                        .filter((s) =>
+                          rightPackage.services.special.condo.includes(s.id)
+                        )
+                        .map((service, index) => (
+                          <li key={service.id} className="flex flex-col">
+                            <div className="flex items-start">
+                              <div className="flex-shrink-0">
+                                <svg
+                                  fill="none"
+                                  viewBox="0 0 24 24"
+                                  stroke="currentColor"
+                                  className="h-6 w-6 text-indigo-500"
+                                >
+                                  <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                                  />
+                                </svg>
+                              </div>
+                              <p
+                                className={`ml-3 text-base leading-6 font-medium text-gray-500 ${
+                                  service.star && "star"
+                                }`}
+                              >
+                                {service.name}
+                              </p>
+                            </div>
+                            <div>
+                              {rightPackage.services.special.condo.length !==
+                                index + 1 && (
+                                <span className="font-bold text-indigo-500">
+                                  {" "}
+                                  or
+                                </span>
+                              )}
+                            </div>
                           </li>
                         ))}
                     </ul>
