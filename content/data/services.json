@@ -17,10 +17,66 @@
     {
       "name": "HDR Aerial Photos",
       "disclaimer": false,
-      "multiple": true,
+      "multiple": false,
       "price": { "condo": 100.0, "house": 100.0 },
       "description": "Includes 10 Aerial HDR photos of the exterior of the building, the street and the vicinity."
+    },
+    {
+      "name": "HDR Property Photos",
+      "disclaimer": true,
+      "multiple": false,
+      "price": { "condo": 150.0, "house": 200.0 },
+      "description": "Includes taking HDR photos and touching them up."
+    },
+    {
+      "name": "Virtual Tour",
+      "disclaimer": true,
+      "multiple": false,
+      "price": { "condo": 250.0, "house": 450.0 },
+      "description": "3D scan and virtual floor."
     }
   ],
-  "disclaimer": "The 3 first months of storage is included in the price of virtual tours."
+  "extra": [
+    {
+      "name": "HDR Aerial Photos",
+      "disclaimer": false,
+      "multiple": true,
+      "price": { "condo": 10.0, "house": 10.0 },
+      "description": "Per extra photo."
+    },
+    {
+      "name": "HDR Property Photos",
+      "disclaimer": false,
+      "multiple": true,
+      "price": { "condo": 3.5, "house": 3.5 },
+      "description": "Per extra photo."
+    },
+    {
+      "name": "24 Hour Rush Fee",
+      "disclaimer": false,
+      "multiple": false,
+      "price": { "condo": 200.0, "house": 200.0 },
+      "description": "Delivered within 24 hours."
+    },
+    {
+      "name": "Matterport Storage",
+      "disclaimer": true,
+      "multiple": true,
+      "price": { "condo": 15.0, "house": 15.0 },
+      "description": "Additional 3 month storage."
+    },
+    {
+      "name": "Floor Plan",
+      "disclaimer": true,
+      "multiple": true,
+      "price": { "condo": 40.0, "house": 40.0 },
+      "description": "Per floor."
+    }
+  ],
+  "disclaimers": [
+    "The 3 first months of storage is included in the price of virtual tours.",
+    "Virtual Tours comes standard with 1 floor unit for condos and 2 floor units for houses",
+    "Floor Plan only is available when you purchase a virtual tour",
+    "HDR Property Photos comes standard with 20 photos for condos and 35 for houses."
+  ]
 }
