@@ -2,12 +2,12 @@
 label: Service
 hide_body: true
 fields:
-- name: name
+- name: service_name
   type: text
   config:
     required: true
   label: Name
-- name: price
+- name: service_price
   type: field_group
   config: {}
   fields:
