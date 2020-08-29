@@ -6,8 +6,8 @@ name: HDR Property Photos
 description:
   condo: Includes taking 20 HDR photos and touching them up.
   house: Includes taking 35 HDR photos and touching them up.
-disclaimer: ''
+disclaimer: ""
 multiple: false
 package_only: false
-
+key: service
 ---

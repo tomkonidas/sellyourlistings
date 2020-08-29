@@ -4,12 +4,14 @@ price:
   house: 100
 name: HDR Aerial Photos
 description:
-  condo: Includes 10 Aerial HDR photos of the exterior of the building, the street
+  condo:
+    Includes 10 Aerial HDR photos of the exterior of the building, the street
     and the vicinity.
-  house: Includes 10 Aerial HDR photos of the exterior of the building, the street
+  house:
+    Includes 10 Aerial HDR photos of the exterior of the building, the street
     and the vicinity.
-disclaimer: ''
+disclaimer: ""
 multiple: false
 package_only: false
-
+key: service
 ---

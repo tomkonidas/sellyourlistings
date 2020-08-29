@@ -9,5 +9,5 @@ description:
 disclaimer: The 3 first months of storage is included in the price of virtual tours.
 multiple: false
 package_only: false
-
+key: service
 ---

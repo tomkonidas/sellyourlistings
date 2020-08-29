@@ -6,8 +6,8 @@ name: 24 Hour Rush Fee
 description:
   condo: Delivered within 24 hours.
   house: Delivered within 24 hours.
-disclaimer: ''
+disclaimer: ""
 multiple: false
 package_only: false
-
+key: service
 ---
