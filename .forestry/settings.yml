@@ -1,20 +1,24 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
-webhook_url: 
+admin_path: ""
+webhook_url:
 sections:
-- type: heading
-  label: Config
-- type: document
-  path: content/data/services.json
-  label: Services
-- type: document
-  path: content/data/packages.json
-  label: Packages
+  - type: heading
+    label: Config
+  - type: document
+    path: content/data/services
+    label: Services
+    templates:
+      - service
+  - type: document
+    path: content/data/packages
+    label: Packages
+    templates:
+      - package
 upload_dir: content/images
 public_path: content/images
-front_matter_path: ''
+front_matter_path: ""
 use_front_matter_path: false
 file_template: ":filename:"
 build:
