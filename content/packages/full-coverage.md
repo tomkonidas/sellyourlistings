@@ -10,5 +10,6 @@ services:
 - service: content/services/virtual-tour.md
 - service: content/services/video-editing.md
 - service: content/services/planning-and-coordination.md
+key: package
 
 ---
