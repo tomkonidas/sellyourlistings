@@ -9,11 +9,17 @@ sections:
   - type: document
     path: content/data/services
     label: Services
+    create: documents
+    match: "**/*"
+    new_doc_ext: md
     templates:
       - service
   - type: document
     path: content/data/packages
     label: Packages
+    create: documents
+    match: "**/*"
+    new_doc_ext: md
     templates:
       - package
 upload_dir: content/images
