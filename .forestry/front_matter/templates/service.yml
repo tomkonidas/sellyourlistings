@@ -21,7 +21,7 @@ fields:
       min: 
       max: 
       step: 
-      required: true
+      required: false
   - name: house
     type: number
     label: House
@@ -32,7 +32,7 @@ fields:
       min: 
       max: 
       step: 
-      required: true
+      required: false
   label: Price
 - name: description
   type: field_group
