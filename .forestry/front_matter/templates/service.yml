@@ -63,5 +63,6 @@ fields:
   label: Package Only
   description: Only show this service in a package and not in the 'A la cart' section
 pages:
+- content/services/hdr-aerial-photos.md
 - content/services/hdr-drone-video.md
 - content/services/hdr-interior-video.md
