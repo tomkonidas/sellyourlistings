@@ -2,7 +2,7 @@
   "services": [
     {
       "name": "Property Photos",
-      "displayStar": false,
+      "display_star": false,
       "multiple": false,
       "price": { "condo": 100.0, "house": 150.0 },
       "description": "Includes 20 professionally edited photos of high quality, color balance, exposure and sharpening."
