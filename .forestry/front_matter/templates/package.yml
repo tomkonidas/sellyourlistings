@@ -47,7 +47,7 @@ fields:
     required: false
   label: key
   default: package
-  hidden: false
+  hidden: true
 pages:
 - content/packages/full-coverage.md
 - content/packages/matterport_hdr-photos.md
