@@ -17,7 +17,7 @@ fields:
     min: 
     max: 
     step: 
-- name: most_popular
+- name: package_most_popular
   type: boolean
   label: Most Popular
   description: Only one package should have this set
