@@ -43,7 +43,7 @@
         "condo": "Includes taking 20 HDR photos and touching them up.",
         "house": "Includes taking 35 HDR photos and touching them up."
       }
-    }
+    },
     {
       "name": "Virtual Tour",
       "code": "virtual_tour",
@@ -63,7 +63,10 @@
       "disclaimer": "Floor plans are only available when purchasing a virtual tour.",
       "multiple": true,
       "price": { "condo": 40.0, "house": 40.0 },
-      "description": { "condo": "Per additional floor.", "house": "Per additional floor." }
+      "description": {
+        "condo": "Per additional floor.",
+        "house": "Per additional floor."
+      }
     },
     {
       "name": "Extra HDR Aerial Photos",
@@ -71,15 +74,21 @@
       "disclaimer": "",
       "multiple": true,
       "price": { "condo": 10.0, "house": 10.0 },
-      "description": { "condo": "Per additional photo.", "house": "Per additional photo." }
+      "description": {
+        "condo": "Per additional photo.",
+        "house": "Per additional photo."
+      }
     },
     {
       "name": "Extra HDR Property Photos",
       "code": "extra_hdr_property_photos",
       "disclaimer": "",
       "multiple": true,
-      "price": { "condo": 3.50, "house": 3.50 },
-      "description": { "condo": "Per additional photo.", "house": "Per additional photo." }
+      "price": { "condo": 3.5, "house": 3.5 },
+      "description": {
+        "condo": "Per additional photo.",
+        "house": "Per additional photo."
+      }
     },
     {
       "name": "24 Hour Rush Fee",
@@ -87,7 +96,10 @@
       "disclaimer": "",
       "multiple": true,
       "price": { "condo": 200, "house": 200 },
-      "description": { "condo": "Delivered within 24 hours.", "house": "Delivered within 24 hours." }
+      "description": {
+        "condo": "Delivered within 24 hours.",
+        "house": "Delivered within 24 hours."
+      }
     }
   ],
   "package_only": [
