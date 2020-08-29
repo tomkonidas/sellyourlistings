@@ -39,7 +39,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: service
   label: Services
 pages:
 - content/packages/matterport_hdr-photos.md
