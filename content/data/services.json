@@ -2,25 +2,25 @@
   "services": [
     {
       "name": "HDR Interior Video",
-      "display_star": false,
+      "has_disclaimer": false,
       "multiple": false,
       "price": { "condo": 250.0, "house": 350.0 },
       "description": "4k video of interior units, building amenities, facade and building features."
     },
     {
       "name": "HDR Drone Video",
-      "display_star": false,
+      "has_disclaimer": false,
       "multiple": false,
       "price": { "condo": 250.0, "house": 350.0 },
       "description": "4k Drone video of the exterior of the building, the street and the vicinity."
     },
     {
       "name": "HDR Aerial Photos",
-      "display_star": false,
+      "has_disclaimer": false,
       "multiple": true,
       "price": { "condo": 100.0, "house": 100.0 },
       "description": "Includes 10 Aerial HDR photos of the exterior of the building, the street and the vicinity."
     }
   ],
-  "star": "The 3 first months of storage is included in the price of virtual tours."
+  "disclaimer": "The 3 first months of storage is included in the price of virtual tours."
 }
