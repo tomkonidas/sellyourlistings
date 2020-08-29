@@ -1,10 +1,9 @@
 ---
-discount: 10
-name: Matterport/HDR Photos
-most_popular: false
-services:
-- service: content/services/virtual-tour.md
-- service: content/services/hdr-property-photos.md
+package_discount: 10
+package_name: Matterport/HDR Photos
+package_most_popular: false
+package_services:
+  - service: content/package_services/virtual-tour.md
+  - service: content/package_services/hdr-property-photos.md
 key: package
-
 ---
