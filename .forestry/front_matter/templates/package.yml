@@ -25,9 +25,16 @@ fields:
   type: field_group_list
   fields:
   - name: service
-    type: include
-    config: {}
-    template: service
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: services-65f6fe1a-d521-41f2-a7d4-b47a2f7e0de7
+        file: 
+        path: 
     label: Service
   config:
     min: 
