@@ -5,7 +5,7 @@ fields:
 - name: name
   type: text
   config:
-    required: false
+    required: true
   label: Name
 - name: price
   type: field_group
@@ -21,6 +21,7 @@ fields:
       min: 
       max: 
       step: 
+      required: true
   - name: house
     type: number
     label: House
@@ -31,6 +32,7 @@ fields:
       min: 
       max: 
       step: 
+      required: true
   label: Price
 - name: description
   type: field_group
@@ -47,3 +49,8 @@ fields:
       required: false
     label: House
   label: Description
+- name: disclaimer
+  type: text
+  config:
+    required: false
+  label: Disclaimer
