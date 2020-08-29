@@ -7,6 +7,10 @@ sections:
 - type: heading
   label: Config
 - type: document
+  path: content/data/categories.json
+  label: Categories
+  match: "**/*"
+- type: document
   path: content/data/services.json
   label: Services
 - type: document
