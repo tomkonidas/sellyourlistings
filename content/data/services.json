@@ -38,14 +38,14 @@
   ],
   "extra": [
     {
-      "name": "HDR Aerial Photos",
+      "name": "Extra HDR Aerial Photos",
       "disclaimer": false,
       "multiple": true,
       "price": { "condo": 10.0, "house": 10.0 },
       "description": "Per extra photo."
     },
     {
-      "name": "HDR Property Photos",
+      "name": "Extra HDR Property Photos",
       "disclaimer": false,
       "multiple": true,
       "price": { "condo": 3.5, "house": 3.5 },
@@ -59,7 +59,7 @@
       "description": "Delivered within 24 hours."
     },
     {
-      "name": "Matterport Storage",
+      "name": "Extra Matterport Storage",
       "disclaimer": true,
       "multiple": true,
       "price": { "condo": 15.0, "house": 15.0 },
@@ -71,6 +71,18 @@
       "multiple": true,
       "price": { "condo": 40.0, "house": 40.0 },
       "description": "Per floor."
+    }
+  ],
+  "package_only": [
+    {
+      "name": "Video Editing",
+      "price": { "condo": 150.0, "house": 250.0 },
+      "description": [
+        "Media management and data transfer",
+        "Editing and colorization of the video",
+        "Custom template and animation for the video",
+        "Custom music"
+      ]
     }
   ],
   "disclaimers": [
