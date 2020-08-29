@@ -6,20 +6,14 @@ webhook_url:
 sections:
 - type: heading
   label: Config
-- type: directory
-  path: content/services
-  label: Services
-  create: documents
+- type: document
+  path: content/data/services.json
+  label: Servies
   match: "**/*"
-  templates:
-  - service
-- type: directory
-  path: content/packages
+- type: document
+  path: content/data/packages.md
   label: Packages
-  create: documents
   match: "**/*"
-  templates:
-  - package
 upload_dir: static/uploads
 public_path: static/uploads
 front_matter_path: ''
