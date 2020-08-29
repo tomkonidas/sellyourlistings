@@ -1,22 +1,22 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
-webhook_url: 
+admin_path: ""
+webhook_url:
 sections:
-- type: heading
-  label: Config
-- type: document
-  path: content/data/services.json
-  label: Servies
-  match: "**/*"
-- type: document
-  path: content/data/packages.md
-  label: Packages
-  match: "**/*"
+  - type: heading
+    label: Config
+  - type: document
+    path: content/data/services.json
+    label: Services
+    match: "**/*"
+  - type: document
+    path: content/data/packages.json
+    label: Packages
+    match: "**/*"
 upload_dir: static/uploads
 public_path: static/uploads
-front_matter_path: ''
+front_matter_path: ""
 use_front_matter_path: false
 file_template: ":filename:"
 build:
