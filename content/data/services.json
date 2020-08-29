@@ -1,0 +1,111 @@
+{
+  "services": [
+    {
+      "name": "HDR Interior Video",
+      "code": "hdr_interior_video",
+      "disclaimer": "",
+      "multiple": false,
+      "price": { "condo": 250.0, "house": 350.0 },
+      "description": {
+        "condo": "4k video of interior units, building amenities, facade and building features.",
+        "house": "4k video of interior units, building amenities, facade and building features."
+      }
+    },
+    {
+      "name": "HDR Drone Video",
+      "code": "hdr_drone_video",
+      "disclaimer": "",
+      "multiple": false,
+      "price": { "condo": 250.0, "house": 350.0 },
+      "description": {
+        "condo": "4k Drone video of the exterior of the building, the street and the vicinity.",
+        "house": "4k Drone video of the exterior of the building, the street and the vicinity."
+      }
+    },
+    {
+      "name": "HDR Aerial Photos",
+      "code": "hdr_aerial_photos",
+      "disclaimer": "",
+      "multiple": false,
+      "price": { "condo": 100.0, "house": 100.0 },
+      "description": {
+        "condo": "Includes 10 Aerial HDR photos of the exterior of the building, the street and the vicinity.",
+        "house": "Includes 10 Aerial HDR photos of the exterior of the building, the street and the vicinity."
+      }
+    },
+    {
+      "name": "HDR Property Photos",
+      "code": "hdr_property_photos",
+      "disclaimer": "",
+      "multiple": false,
+      "price": { "condo": 150.0, "house": 200.0 },
+      "description": {
+        "condo": "Includes taking 20 HDR photos and touching them up.",
+        "house": "Includes taking 35 HDR photos and touching them up."
+      }
+    }
+    {
+      "name": "Virtual Tour",
+      "code": "virtual_tour",
+      "disclaimer": "The 3 first months of storage is included in the price of virtual tours.",
+      "multiple": false,
+      "price": { "condo": 250.0, "house": 450.0 },
+      "description": {
+        "condo": "3D scan and virtual floor per unit. (1 Floor Unit)",
+        "house": "3D scan and virtual floor per unit. (2 Floor Units)"
+      }
+    }
+  ],
+  "extra": [
+    {
+      "name": "Floor Plan",
+      "code": "floor_plan",
+      "disclaimer": "Floor plans are only available when purchasing a virtual tour.",
+      "multiple": true,
+      "price": { "condo": 40.0, "house": 40.0 },
+      "description": { "condo": "Per additional floor.", "house": "Per additional floor." }
+    },
+    {
+      "name": "Extra HDR Aerial Photos",
+      "code": "extra_hdr_aerial_photos",
+      "disclaimer": "",
+      "multiple": true,
+      "price": { "condo": 10.0, "house": 10.0 },
+      "description": { "condo": "Per additional photo.", "house": "Per additional photo." }
+    },
+    {
+      "name": "Extra HDR Property Photos",
+      "code": "extra_hdr_property_photos",
+      "disclaimer": "",
+      "multiple": true,
+      "price": { "condo": 3.50, "house": 3.50 },
+      "description": { "condo": "Per additional photo.", "house": "Per additional photo." }
+    },
+    {
+      "name": "24 Hour Rush Fee",
+      "code": "24_hour_rush_fee",
+      "disclaimer": "",
+      "multiple": true,
+      "price": { "condo": 200, "house": 200 },
+      "description": { "condo": "Delivered within 24 hours.", "house": "Delivered within 24 hours." }
+    }
+  ],
+  "package_only": [
+    {
+      "name": "Video Editing",
+      "code": "video_editing",
+      "disclaimer": "",
+      "multiple": true,
+      "price": { "condo": 150.0, "house": 250.0 },
+      "description": { "condo": "", "house": "" }
+    },
+    {
+      "name": "Planing & Coordination",
+      "code": "planning_and_coordination",
+      "disclaimer": "",
+      "multiple": false,
+      "price": { "condo": 0.0, "house": 0.0 },
+      "description": { "condo": "", "house": "" }
+    }
+  ]
+}
