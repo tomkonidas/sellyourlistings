@@ -59,7 +59,7 @@
       "description": "Delivered within 24 hours."
     },
     {
-      "name": "Extra Matterport Storage",
+      "name": "Matterport Storage",
       "disclaimer": true,
       "multiple": true,
       "price": { "condo": 15.0, "house": 15.0 },
@@ -83,6 +83,11 @@
         "Custom template and animation for the video",
         "Custom music"
       ]
+    },
+    {
+      "name": "Planing And Coordination",
+      "price": { "condo": 0.0, "house": 0.0 },
+      "description": ["Planning", "Coordination"]
     }
   ],
   "disclaimers": [
