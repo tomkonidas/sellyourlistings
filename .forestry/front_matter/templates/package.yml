@@ -2,12 +2,12 @@
 label: Package
 hide_body: true
 fields:
-- name: name
+- name: package_name
   type: text
   config:
     required: false
   label: Name
-- name: discount
+- name: package_discount
   type: number
   label: Discount
   description: Value is for %
@@ -21,7 +21,7 @@ fields:
   type: boolean
   label: Most Popular
   description: Only one package should have this set
-- name: services
+- name: package_services
   type: field_group_list
   fields:
   - name: service
