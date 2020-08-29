@@ -1,8 +1,11 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
+const defaultTheme = require("tailwindcss/defaultTheme")
 
 module.exports = {
   purge: {
     content: ["./components/**/*.js", "./pages/**/*.js"],
+  },
+  future: {
+    removeDeprecatedGapUtilities: true,
   },
   theme: {
     extend: {
@@ -20,4 +23,4 @@ module.exports = {
   },
   variants: {},
   plugins: [require("@tailwindcss/ui")],
-};
+}
