@@ -1,37 +1,14 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import Container from "./container"
 
-const Packages = () => {
-  //     const data = useStaticQuery(graphql`
-  //     query ApplicationsQuery {
-  //       allPlexusCsv {
-  //         edges {
-  //           node {
-  //             id
-  //             Application
-  //             Month
-  //             Year
-  //             Rating__1_4_
-  //             MicroG_Rating__1_4_
-  //             fields {
-  //               slug
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   `);
-
+const Packages = ({ packages }) => {
   return (
     <Container>
-      <div>teste</div>
-      <div>teste</div>
-      <div>teste</div>
-      <div>teste</div>
-      <div>teste</div>
-      <div>teste</div>
-      <div>teste</div>
+      {packages.map(({ package_code, name }) => (
+        <div className="p-4 bg-brand text-white w-100 mb-3" key={package_code}>
+          {name}
+        </div>
+      ))}
     </Container>
   )
 }

@@ -2,23 +2,27 @@
   "packages": [
     {
       "name": "Matterport/HDR Photos",
-      "code": "matterport_hdr_photos",
+      "package_code": "matterport_hdr_photos",
       "discount": 10.0,
-      "services": ["hdr_property_photos", "virtual_tour"],
+      "service_codes": ["hdr_property_photos", "virtual_tour"],
       "most_popular": false
     },
     {
       "name": "Property Showcase",
-      "code": "property_showcase",
+      "package_code": "property_showcase",
       "discount": 10.0,
-      "packages": ["hdr_interior_video", "hdr_drone_video", "video_editing"],
+      "service_codes": [
+        "hdr_interior_video",
+        "hdr_drone_video",
+        "video_editing"
+      ],
       "most_popular": false
     },
     {
       "name": "Full Coverage",
-      "code": "full_coverage",
+      "package_code": "full_coverage",
       "discount": 10.0,
-      "packages": [
+      "service_codes": [
         "hdr_interior_video",
         "hdr_drone_video",
         "hdr_aerial_photos",

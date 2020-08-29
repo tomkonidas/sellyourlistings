@@ -2,7 +2,7 @@
   "services": [
     {
       "name": "HDR Interior Video",
-      "code": "hdr_interior_video",
+      "service_code": "hdr_interior_video",
       "disclaimer": "",
       "multiple": false,
       "price": { "condo": 250.0, "house": 350.0 },
@@ -13,7 +13,7 @@
     },
     {
       "name": "HDR Drone Video",
-      "code": "hdr_drone_video",
+      "service_code": "hdr_drone_video",
       "disclaimer": "",
       "multiple": false,
       "price": { "condo": 250.0, "house": 350.0 },
@@ -24,7 +24,7 @@
     },
     {
       "name": "HDR Aerial Photos",
-      "code": "hdr_aerial_photos",
+      "service_code": "hdr_aerial_photos",
       "disclaimer": "",
       "multiple": false,
       "price": { "condo": 100.0, "house": 100.0 },
@@ -35,7 +35,7 @@
     },
     {
       "name": "HDR Property Photos",
-      "code": "hdr_property_photos",
+      "service_code": "hdr_property_photos",
       "disclaimer": "",
       "multiple": false,
       "price": { "condo": 150.0, "house": 200.0 },
@@ -46,7 +46,7 @@
     },
     {
       "name": "Virtual Tour",
-      "code": "virtual_tour",
+      "service_code": "virtual_tour",
       "disclaimer": "The 3 first months of storage is included in the price of virtual tours.",
       "multiple": false,
       "price": { "condo": 250.0, "house": 450.0 },
@@ -56,10 +56,10 @@
       }
     }
   ],
-  "extra": [
+  "services_extra": [
     {
       "name": "Floor Plan",
-      "code": "floor_plan",
+      "service_code": "floor_plan",
       "disclaimer": "Floor plans are only available when purchasing a virtual tour.",
       "multiple": true,
       "price": { "condo": 40.0, "house": 40.0 },
@@ -70,7 +70,7 @@
     },
     {
       "name": "Extra HDR Aerial Photos",
-      "code": "extra_hdr_aerial_photos",
+      "service_code": "extra_hdr_aerial_photos",
       "disclaimer": "",
       "multiple": true,
       "price": { "condo": 10.0, "house": 10.0 },
@@ -81,7 +81,7 @@
     },
     {
       "name": "Extra HDR Property Photos",
-      "code": "extra_hdr_property_photos",
+      "service_code": "extra_hdr_property_photos",
       "disclaimer": "",
       "multiple": true,
       "price": { "condo": 3.5, "house": 3.5 },
@@ -92,7 +92,7 @@
     },
     {
       "name": "24 Hour Rush Fee",
-      "code": "24_hour_rush_fee",
+      "service_code": "24_hour_rush_fee",
       "disclaimer": "",
       "multiple": true,
       "price": { "condo": 200, "house": 200 },
@@ -102,10 +102,10 @@
       }
     }
   ],
-  "package_only": [
+  "services_package_only": [
     {
       "name": "Video Editing",
-      "code": "video_editing",
+      "service_code": "video_editing",
       "disclaimer": "",
       "multiple": true,
       "price": { "condo": 150.0, "house": 250.0 },
@@ -113,7 +113,7 @@
     },
     {
       "name": "Planing & Coordination",
-      "code": "planning_and_coordination",
+      "service_code": "planning_and_coordination",
       "disclaimer": "",
       "multiple": false,
       "price": { "condo": 0.0, "house": 0.0 },
