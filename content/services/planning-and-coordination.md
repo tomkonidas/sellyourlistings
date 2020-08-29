@@ -1,13 +1,13 @@
 ---
-price:
+service_price:
   condo: 0
   house: 0
-name: Planning & Coordination
-description:
+service_name: Planning & Coordination
+service_description:
   condo: Offsite and Onsite planning
   house: Offsite and Onsite planning
-disclaimer: ""
-multiple: false
-package_only: true
+service_disclaimer: ""
+service_multiple: false
+service_package_only: true
 key: service
 ---

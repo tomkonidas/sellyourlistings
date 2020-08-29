@@ -1,13 +1,13 @@
 ---
-price:
+service_price:
   condo: 150
   house: 250
-name: Video Editing
-description:
+service_name: Video Editing
+service_description:
   condo: Full Edit.
   house: Full Edit.
-disclaimer: ""
-multiple: false
-package_only: true
+service_disclaimer: ""
+service_multiple: false
+service_package_only: true
 key: service
 ---
