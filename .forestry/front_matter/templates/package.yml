@@ -41,3 +41,5 @@ fields:
     max: 
     labelField: 
   label: Services
+pages:
+- content/packages/matterport_hdr-photos.md
