@@ -15,6 +15,10 @@
   content: "*";
   @apply text-brand;
 }
+.disclaimer::before {
+  content: "*";
+  @apply text-brand;
+}
 ::selection {
   @apply bg-brand text-white;
 }

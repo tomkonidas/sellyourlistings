@@ -1,26 +1,46 @@
 const { packages } = require("../../content/data/packages.json")
-const {
-  services,
-  services_extra,
-  services_package_only,
-} = require("../../content/data/services.json")
+const { getAllServices } = require("./services")
 
-const allServices = services
-  .concat(services_extra)
-  .concat(services_package_only)
-console.log(allServices)
+const allServices = getAllServices()
+
 const getAllPackages = () => {
   const allPackages = packages.map(p => {
     const package_services = allServices.filter(({ service_code }) => {
       return p.service_codes.includes(service_code)
     })
-    return { ...p, package_services }
+
+    const getDiscountedPrice = (total, discountAmount) =>
+      (total - Math.round(total * discountAmount) / 100).toFixed(2)
+
+    const fullPrice = {
+      condo: package_services.reduce(
+        (accumulator, { price }) => accumulator + price.condo,
+        0
+      ),
+      house: package_services.reduce(
+        (accumulator, { price }) => accumulator + price.house,
+        0
+      ),
+    }
+
+    const totalPrice = {
+      condo: getDiscountedPrice(fullPrice.condo, p.discount),
+      house: getDiscountedPrice(fullPrice.house, p.discount),
+    }
+    return { ...p, package_services, fullPrice, totalPrice }
   })
   return allPackages
 }
 
 const getFeaturedPackages = () => {
-  return { main: "main", left: "left", right: "right" }
+  const allPackages = getAllPackages()
+
+  const [
+    mostPopularPackage,
+    leftPackage,
+    rightPackage,
+  ] = allPackages.sort(({ most_popular }) => (most_popular === true ? -1 : 1))
+  return { mostPopularPackage, leftPackage, rightPackage }
 }
 
 export { getAllPackages, getFeaturedPackages }
