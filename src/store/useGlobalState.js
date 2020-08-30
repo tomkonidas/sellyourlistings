@@ -34,10 +34,12 @@ const reducer = (state, action) => {
 }
 
 const useGlobalState = () => {
+  const buildType = storage.getItem("buildType")
+    ? storage.getItem("buildType")
+    : "condo"
+
   const [state, dispatch] = useReducer(reducer, {
-    buildType: storage.getItem("buildType")
-      ? storage.getItem("buildType")
-      : "condo",
+    buildType,
     total: 0.0,
     service_codes: [],
   })
