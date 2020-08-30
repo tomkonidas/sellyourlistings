@@ -1,5 +1,4 @@
 import { useReducer } from "react"
-import { storage } from "local-storage-fallback"
 import { getTotal } from "../utils/services"
 
 const reducer = (state, action) => {
