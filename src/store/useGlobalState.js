@@ -22,6 +22,17 @@ const reducer = (state, action) => {
         service_codes,
         total,
       }
+    case "CHANGE_SERVICE_MULTIPLE":
+      const newServiceCodes = state.service_codes
+        .filter(service_code => service_code !== action.service_code)
+        .concat(Array(action.amount).fill(action.service_code))
+      const newTotal = getTotal(newServiceCodes, state.buildType)
+
+      return {
+        ...state,
+        service_codes: newServiceCodes,
+        total: newTotal,
+      }
     default: {
       return state
     }

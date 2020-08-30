@@ -16,13 +16,12 @@ const getAllServices = () =>
     )
 
 const getTotal = (serviceCodes, buildType) =>
-  getAllServices().reduce(
-    (acc, service) =>
-      serviceCodes.includes(service.service_code)
-        ? acc + service.price[buildType]
-        : acc,
-    0
-  )
+  serviceCodes.reduce((acc, serviceCode) => {
+    const [serviceReference] = getAllServices().filter(
+      ({ service_code }) => service_code === serviceCode
+    )
+    return acc + serviceReference.price[buildType]
+  }, 0)
 
 const getDisplayedServices = () => [
   { category: "Services", services },
