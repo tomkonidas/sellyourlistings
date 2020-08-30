@@ -30,6 +30,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-postcss`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://sellyourlistings.ca",
+        sitemap: "https://sellyourlistings.ca/sitemap.xml",
+        policy: [
+          { userAgent: "*", allow: "/" },
+          { userAgent: "*", disallow: "/admin/" },
+        ],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
