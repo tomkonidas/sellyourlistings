@@ -1,18 +1,38 @@
-import React, { useContext } from "react"
+import React, { useState, useContext } from "react"
 import Context from "../store/context"
 
 const ServicePricingChartRow = ({ service }) => {
   const { state, dispatch } = useContext(Context)
+  const [amount, setAmount] = useState(1)
+
+  const handleServiceMultiplier = multiplier => {
+    setAmount(multiplier)
+    dispatch({
+      type: "CHANGE_SERVICE_MULTIPLE",
+      amount: multiplier,
+      service_code: service.service_code,
+    })
+  }
+
+  const handleServiceToggle = () => {
+    state.service_codes.includes(service.service_code) && setAmount(1)
+    dispatch({
+      type: "TOGGLE_SERVICE",
+      service_code: service.service_code,
+    })
+  }
   return (
     <>
       <div
-        className={`bg-gray-50 py-2 pr-4 pl-2 border-l-8 border-gray-200 hover:border-gray-300 flex items-center justify-between cursor-default hover:bg-gray-100 ${
+        className={`bg-gray-50 py-4 pr-4 pl-2 border-l-8 border-gray-200 hover:border-gray-300 flex items-center justify-between cursor-default hover:bg-gray-100 ${
           state.service_codes.includes(service.service_code)
             ? "border-brand hover:border-brand"
             : "border-gray-200"
         }`}
       >
-        <div className={service.disclaimer ? "star" : ""}>{service.name}</div>
+        <div className={`py-2 ${service.disclaimer && "star"}`}>
+          {service.name}
+        </div>
         {service.description[state.buildType] && (
           <div
             className="text-gray-400 ml-1"
@@ -33,23 +53,24 @@ const ServicePricingChartRow = ({ service }) => {
             </svg>
           </div>
         )}
-        <div className="ml-auto mr-4">
-          {service.price[state.buildType].toFixed(2)}
+        <div className="ml-auto mr-4 flex items-center">
+          <div>{service.price[state.buildType].toFixed(2)}</div>
+          {service.multiple &&
+            state.service_codes.includes(service.service_code) && (
+              <input
+                className="form-input block w-16 sm:text-sm sm:leading-5 ml-4"
+                type="number"
+                min="1"
+                max="99"
+                value={amount}
+                onChange={e => handleServiceMultiplier(Number(e.target.value))}
+              />
+            )}
         </div>
 
         <span
-          onClick={() =>
-            dispatch({
-              type: "TOGGLE_SERVICE",
-              service_code: service.service_code,
-            })
-          }
-          onKeyDown={() =>
-            dispatch({
-              type: "TOGGLE_SERVICE",
-              service_code: service.service_code,
-            })
-          }
+          onClick={handleServiceToggle}
+          onKeyDown={handleServiceToggle}
           role="checkbox"
           tabIndex="0"
           aria-checked="false"
