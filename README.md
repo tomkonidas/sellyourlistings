@@ -20,7 +20,7 @@ To run your application:
 
 - Install dependencies with `npm install`
 - Start your application with `gatsby develop`
-- Access the app at `http://localhost:3000/`
+- Access the app at `http://localhost:8000/`
 
 ## Contact
 
