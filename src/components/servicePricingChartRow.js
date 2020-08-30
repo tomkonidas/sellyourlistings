@@ -7,7 +7,7 @@ const ServicePricingChartRow = ({ service }) => {
     <>
       <div
         className={`bg-gray-50 py-2 pr-4 pl-2 border-l-8 border-gray-200 hover:border-gray-300 flex items-center justify-between cursor-default hover:bg-gray-100 ${
-          service.isAdded
+          state.service_codes.includes(service.service_code)
             ? "border-brand hover:border-brand"
             : "border-gray-200"
         }`}
