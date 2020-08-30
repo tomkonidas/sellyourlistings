@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="mt-5 md:grid md:grid-cols-2 md:gap-8">
           {contacts.map(
             ({ title, description, phone, availability, email }) => (
-              <div key={title}>
+              <div className="mb-12 md:mb-6" key={title}>
                 <h2 className="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9">
                   {title}
                 </h2>
