@@ -5,10 +5,6 @@ import { getTotal } from "../utils/services"
 const reducer = (state, action) => {
   switch (action.type) {
     case "TOGGLE_BUILD_TYPE":
-      storage.setItem(
-        "buildType",
-        state.buildType === "condo" ? "house" : "condo"
-      )
       const buildType = state.buildType === "condo" ? "house" : "condo"
       return {
         ...state,
@@ -34,12 +30,8 @@ const reducer = (state, action) => {
 }
 
 const useGlobalState = () => {
-  const buildType = storage.getItem("buildType")
-    ? storage.getItem("buildType")
-    : "condo"
-
   const [state, dispatch] = useReducer(reducer, {
-    buildType,
+    buildType: "condo",
     total: 0.0,
     service_codes: [],
   })
