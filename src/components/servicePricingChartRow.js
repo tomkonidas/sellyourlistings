@@ -15,7 +15,6 @@ const ServicePricingChartRow = ({ service }) => {
         <div className={service.disclaimer ? "star" : ""}>{service.name}</div>
         {service.description[state.buildType] && (
           <div
-            //   onClick={() => console.log("click")}
             className="text-gray-400 ml-1"
             title={service.description[state.buildType]}
           >
@@ -40,6 +39,12 @@ const ServicePricingChartRow = ({ service }) => {
 
         <span
           onClick={() =>
+            dispatch({
+              type: "TOGGLE_SERVICE",
+              service_code: service.service_code,
+            })
+          }
+          onKeyDown={() =>
             dispatch({
               type: "TOGGLE_SERVICE",
               service_code: service.service_code,
