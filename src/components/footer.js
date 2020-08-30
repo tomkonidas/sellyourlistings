@@ -3,7 +3,7 @@ import React from "react"
 import Container from "./container"
 
 const Footer = () => (
-  <footer className="bg-brand mt-12">
+  <footer className="bg-brand">
     <Container>
       <div className="py-12 md:flex md:items-center md:justify-between">
         <div className="flex justify-center md:order-2">

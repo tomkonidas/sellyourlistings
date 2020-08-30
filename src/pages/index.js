@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import LandingHeader from "../components/landingHeader"
 import Packages from "../components/packages"
 import Disclaimers from "../components/disclaimers"
+import Contact from "../components/contact"
 
 const IndexPage = () => {
   const {
@@ -25,6 +26,7 @@ const IndexPage = () => {
         rightPackage={rightPackage}
       />
       <Disclaimers />
+      <Contact />
     </Layout>
   )
 }

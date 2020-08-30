@@ -8,7 +8,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className="relative pt-6">
+    <div className="relative pt-6 z-50">
       <Container>
         <nav className="relative flex items-center justify-between">
           <div className="flex items-center flex-1">
