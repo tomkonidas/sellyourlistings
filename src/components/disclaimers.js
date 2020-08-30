@@ -1,10 +1,13 @@
 import React from "react"
+
+import { getAllServices } from "../utils/services"
+
 import Container from "./container"
 
-const Disclaimers = ({ services }) => (
+const Disclaimers = () => (
   <div className="my-8">
     <Container>
-      {services
+      {getAllServices()
         .filter(({ disclaimer }) => disclaimer.length > 0)
         .map(({ disclaimer, service_code }) => (
           <p

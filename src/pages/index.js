@@ -1,7 +1,6 @@
 import React from "react"
 
 import { getFeaturedPackages } from "../utils/packages"
-import { getAllServices } from "../utils/services"
 
 import SEO from "../components/seo"
 import Layout from "../components/layout"
@@ -25,7 +24,7 @@ const IndexPage = () => {
         leftPackage={leftPackage}
         rightPackage={rightPackage}
       />
-      <Disclaimers services={getAllServices()} />
+      <Disclaimers />
     </Layout>
   )
 }
