@@ -31,6 +31,12 @@ module.exports = {
     },
     `gatsby-plugin-postcss`,
     {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/admin/*`],
+      },
+    },
+    {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://sellyourlistings.ca",
