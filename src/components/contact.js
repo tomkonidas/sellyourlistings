@@ -17,11 +17,13 @@ const Contact = () => {
                 <h2 className="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9">
                   {title}
                 </h2>
-                <div className="mt-3">
-                  <p className="text-lg leading-7 text-gray-500">
-                    {description}
-                  </p>
-                </div>
+                {description && (
+                  <div className="mt-3">
+                    <p className="text-lg leading-7 text-gray-500">
+                      {description}
+                    </p>
+                  </div>
+                )}
                 <div className="mt-9">
                   <div className="flex">
                     <div className="flex-shrink-0">

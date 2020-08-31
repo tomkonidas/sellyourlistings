@@ -2,14 +2,14 @@
   "contacts": [
     {
       "title": "General Inquiries",
-      "description": "Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.",
+      "description": "",
       "phone": "438-880-9633",
       "availability": "Mon-Fri 8am to 6pm EST",
       "email": "contact@sellyourlistings.ca"
     },
     {
       "title": "Services Inquiries",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, repellat error corporis doloribus similique.",
+      "description": "",
       "phone": "438-998-0466",
       "availability": "Mon-Fri 8am to 6pm EST",
       "email": "contact@sellyourlistings.ca"
