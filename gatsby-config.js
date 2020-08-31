@@ -7,13 +7,6 @@ module.exports = {
     og_image: `https://sellyourlistings/sellyourlistings.jpg`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-176843902-1",
-        head: true,
-      },
-    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
