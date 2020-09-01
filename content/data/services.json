@@ -118,7 +118,7 @@
       "name": "24 Hour Rush Fee",
       "service_code": "24_hour_rush_fee",
       "disclaimer": "",
-      "multiple": true,
+      "multiple": false,
       "price": {
         "condo": 200,
         "house": 200
