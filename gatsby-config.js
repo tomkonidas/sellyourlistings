@@ -4,7 +4,7 @@ module.exports = {
     title: `Sell Your Listings`,
     description: `3D dollhouse, drone and interior videos, property photos and social media management. We offer the most affordable prices to help real estate agents. The areas we operate in are the Greater Montreal, Laval, Quebec, Ottawa and Gatineau.`,
     author: `@tomkonidas`,
-    og_image: `https://sellyourlistings/sellyourlistings.jpg`,
+    og_image: `https://sellyourlistings.ca/sellyourlistings.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
