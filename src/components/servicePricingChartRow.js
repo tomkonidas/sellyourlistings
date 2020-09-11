@@ -22,36 +22,38 @@ const ServicePricingChartRow = ({ service }) => {
     })
   }
   return (
-    <>
-      <div
-        className={`bg-gray-50 py-4 pr-4 pl-2 border-l-8 border-gray-200 hover:border-gray-300 flex items-center justify-between cursor-default hover:bg-gray-100 ${
-          state.service_codes.includes(service.service_code)
-            ? "border-brand hover:border-brand"
-            : "border-gray-200"
-        }`}
-      >
+    <div
+      className={`bg-gray-50 py-4 pr-4 pl-2 border-l-8 border-gray-200 hover:border-gray-300 flex flex-col cursor-default hover:bg-gray-100 ${
+        state.service_codes.includes(service.service_code)
+          ? "border-brand hover:border-brand"
+          : "border-gray-200"
+      }`}
+    >
+      <div className="flex items-center justify-between">
         <div className={`py-2 ${service.disclaimer && "star"}`}>
           {service.name}
         </div>
         {service.description[state.buildType] && (
-          <div
-            className="text-gray-400 ml-1"
-            title={service.description[state.buildType]}
-          >
-            <svg
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="information-circle w-4 h-4"
+          <>
+            <div
+              className="hidden md:block text-gray-400 ml-1"
+              title={service.description[state.buildType]}
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-          </div>
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                className="information-circle w-4 h-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+          </>
         )}
         <div className="ml-auto mr-4 flex items-center">
           <div>{service.price[state.buildType].toFixed(2)}</div>
@@ -67,7 +69,6 @@ const ServicePricingChartRow = ({ service }) => {
               />
             )}
         </div>
-
         <span
           onClick={handleServiceToggle}
           onKeyDown={handleServiceToggle}
@@ -94,7 +95,10 @@ const ServicePricingChartRow = ({ service }) => {
           ></span>
         </span>
       </div>
-    </>
+      <div className="mb-4 md:hidden text-gray-500 text-sm">
+        <span>{service.description[state.buildType]}</span>
+      </div>
+    </div>
   )
 }
 
