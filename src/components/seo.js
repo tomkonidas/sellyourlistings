@@ -54,6 +54,7 @@ function SEO({ description, lang, meta, title, og }) {
           content: `website`,
         },
         {
+          name: `image`,
           property: `og:image`,
           content: ogImage,
         },
