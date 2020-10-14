@@ -9,6 +9,8 @@ sections:
   label: Properties
   create: documents
   match: "**/*"
+  templates:
+  - property
 - type: heading
   label: Config
 - type: document

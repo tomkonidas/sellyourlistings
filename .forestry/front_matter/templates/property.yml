@@ -1,4 +1,48 @@
 ---
 label: Property
 hide_body: true
-fields: []
+fields:
+- name: active
+  type: boolean
+  label: Active
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: images
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: showcase
+    type: boolean
+    label: Showcase
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Images
+- name: videos
+  type: field_group_list
+  fields:
+  - name: youtube
+    type: text
+    config:
+      required: false
+    label: Youtube
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Videos
+  description: URL
+- name: matterport
+  type: text
+  config:
+    required: false
+  label: Matterport
+  description: Place the URL here
