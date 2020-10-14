@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: content/properties
+  label: Properties
+  create: documents
+  match: "**/*"
 - type: heading
   label: Config
 - type: document
