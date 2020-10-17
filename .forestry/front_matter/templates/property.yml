@@ -14,7 +14,7 @@ fields:
   type: image_gallery
   config: {}
   label: Images
-- name: videos
+- name: media
   type: field_group_list
   fields:
   - name: urk
@@ -39,11 +39,5 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Videos
+  label: Media
   description: URL
-- name: matterport
-  type: text
-  config:
-    required: false
-  label: Matterport
-  description: Place the URL here
