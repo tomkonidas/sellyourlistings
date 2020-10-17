@@ -24,11 +24,12 @@ fields:
     label: Url
   - name: type
     type: select
-    default: []
+    default: youtube
     config:
-      required: false
+      required: true
       options:
       - youtube
+      - matterport
       source:
         type: simple
         section: 
