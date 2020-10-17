@@ -42,3 +42,5 @@ fields:
     labelField: 
   label: Media
   description: URL
+pages:
+- content/properties/showcase.md
