@@ -17,7 +17,7 @@ fields:
 - name: media
   type: field_group_list
   fields:
-  - name: urk
+  - name: url
     type: text
     config:
       required: false
