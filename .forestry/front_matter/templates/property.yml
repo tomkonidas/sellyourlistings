@@ -17,11 +17,24 @@ fields:
 - name: videos
   type: field_group_list
   fields:
-  - name: youtube
+  - name: urk
     type: text
     config:
       required: false
-    label: Youtube
+    label: Url
+  - name: type
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - youtube
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Type
   config:
     min: 
     max: 
