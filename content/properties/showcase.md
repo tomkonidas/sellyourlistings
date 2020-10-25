@@ -2,22 +2,22 @@
 active: true
 name: Showcase
 images:
-- static/images/dsc09964-edited.png
-- static/images/dsc09865-hdr-edit-edited.png
-- static/images/dsc09798-hdr-edited.jpg
-- static/images/dsc09624-edit-edited.jpg
-- static/images/dsc05839-hdr-edited.jpg
-- static/images/dsc05726-edit-edited.jpg
-- static/images/dsc04525-edit-edited.jpg
-- static/images/dsc04358-edited.png
-- static/images/dsc04229-edit-edited.png
-- static/images/dsc04099.jpg
-- static/images/dsc03415-edited.png
-- static/images/dsc03328-edit-edited.png
-- static/images/dsc03199-edit-edited.png
-- static/images/dsc02283-edited.jpg
-- static/images/dsc00335-hdr-edited-paint.png
-- static/images/dsc00280-hdr-edited.png
+- src/images/dsc09964-edited.png
+- src/images/dsc09865-hdr-edit-edited.png
+- src/images/dsc09798-hdr-edited.jpg
+- src/images/dsc09624-edit-edited.jpg
+- src/images/dsc05839-hdr-edited.jpg
+- src/images/dsc05726-edit-edited.jpg
+- src/images/dsc04525-edit-edited.jpg
+- src/images/dsc04358-edited.png
+- src/images/dsc04229-edit-edited.png
+- src/images/dsc04099.jpg
+- src/images/dsc03415-edited.png
+- src/images/dsc03328-edit-edited.png
+- src/images/dsc03199-edit-edited.png
+- src/images/dsc02283-edited.jpg
+- src/images/dsc00335-hdr-edited-paint.png
+- src/images/dsc00280-hdr-edited.png
 media:
 - url: https://my.matterport.com/show/?m=iQEjSSH2mhD
   type: matterport
