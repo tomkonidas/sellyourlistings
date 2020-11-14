@@ -5,21 +5,17 @@ import Layout from "../components/layout"
 import Header from "../components/header"
 import Container from "../components/container"
 import PageTitle from "../components/pageTitle"
-import ServicesPricingChart from "../components/servicesPricingChart"
-import Disclaimers from "../components/disclaimers"
 
-const ServicesPage = () => {
+const showcasePage = () => {
   return (
     <Layout>
-      <SEO title="Our Services" />
+      <SEO title="Showcase" />
       <Header />
       <Container>
-        <PageTitle>Our Services</PageTitle>
+        <PageTitle>Showcase</PageTitle>
       </Container>
-      <ServicesPricingChart />
-      <Disclaimers />
     </Layout>
   )
 }
 
-export default ServicesPage
+export default showcasePage
