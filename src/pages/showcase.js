@@ -6,6 +6,9 @@ import Header from "../components/header"
 import Container from "../components/container"
 import PageTitle from "../components/pageTitle"
 
+import Youtube from "../components/youtube"
+import Matterport from "../components/matterport"
+
 const showcasePage = () => {
   return (
     <Layout>
@@ -13,6 +16,8 @@ const showcasePage = () => {
       <Header />
       <Container>
         <PageTitle>Showcase</PageTitle>
+        <Youtube url="url" />
+        <Matterport url="url" />
       </Container>
     </Layout>
   )
