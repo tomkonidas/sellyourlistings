@@ -7,6 +7,7 @@ import Header from "../components/header"
 import Container from "../components/container"
 import PageTitle from "../components/pageTitle"
 
+import PropertyImage from "../components/propertyImage"
 import Youtube from "../components/youtube"
 import Matterport from "../components/matterport"
 
@@ -21,25 +22,29 @@ const showcasePage = ({
     },
   } = edges[0]
 
-  const parseImgUrl = url => {
-    console.log(url.split("/"))
-  }
-
   return (
     <Layout>
       <SEO title="Showcase" />
       <Header />
       <Container>
         <PageTitle>Showcase</PageTitle>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="mb-6 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 grid-flow-row auto-rows-fr">
           {images.map(url => (
-            // <img src={url} key={url} />
-            <p key={url}>test</p>
+            <PropertyImage url={url} key={url} />
           ))}
+          {media.map(
+            item =>
+              item.type === "matterport" && (
+                <Matterport url={item.url} key={item.url} />
+              )
+          )}
+          {media.map(
+            item =>
+              item.type === "youtube" && (
+                <Youtube url={item.url} key={item.url} />
+              )
+          )}
         </div>
-        {parseImgUrl(images[0])}
-        <Youtube url="url" />
-        <Matterport url="url" />
       </Container>
     </Layout>
   )
