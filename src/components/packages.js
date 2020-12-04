@@ -9,7 +9,7 @@ const Packages = ({ mostPopularPackage, leftPackage, rightPackage }) => {
     <div id="packages" className="bg-gray-900">
       <div className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
         <div className="text-center">
-          <h2 className="mb-2 text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">
+          <h2 className="mb-2 text-xl leading-6 font-semibold text-gray-300 uppercase tracking-wider">
             Packages
           </h2>
           <p className="mt- text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
@@ -36,7 +36,7 @@ const Packages = ({ mostPopularPackage, leftPackage, rightPackage }) => {
                     <div className="bg-white px-6 py-10">
                       <div>
                         <h3
-                          className="text-center text-2xl leading-8 font-medium text-gray-900 cursive"
+                          className="font-bold text-center text-2xl leading-8 text-gray-900"
                           id="tier-hobby"
                         >
                           {leftPackage.name}
@@ -118,7 +118,7 @@ const Packages = ({ mostPopularPackage, leftPackage, rightPackage }) => {
                   <div className="bg-white rounded-t-lg px-6 pt-12 pb-10">
                     <div>
                       <h3
-                        className="text-center text-3xl leading-9 font-semibold text-gray-900 sm:-mx-6 cursive"
+                        className="font-extrabold text-center text-3xl leading-9 text-gray-900 sm:-mx-6"
                         id="tier-growth"
                       >
                         {mostPopularPackage.name}
@@ -192,7 +192,7 @@ const Packages = ({ mostPopularPackage, leftPackage, rightPackage }) => {
                     <div className="bg-white px-6 py-10">
                       <div>
                         <h3
-                          className="text-center text-2xl leading-8 font-medium text-gray-900 cursive"
+                          className="text-center text-2xl leading-8 font-bold text-gray-900"
                           id="tier-scale"
                         >
                           {rightPackage.name}

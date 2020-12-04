@@ -13,7 +13,11 @@ const Header = () => {
         <nav className="relative flex items-center justify-between">
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <Link to="/" aria-label="Home" className="cursive text-2xl">
+              <Link
+                to="/"
+                aria-label="Home"
+                className="text-2xl font-extrabold"
+              >
                 SellYourListings
               </Link>
               <div className="-mr-2 flex items-center md:hidden">
@@ -90,7 +94,9 @@ const Header = () => {
             >
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
-                  <span className="cursive text-2xl">SellYourListings</span>
+                  <span className="text-2xl font-extrabold">
+                    SellYourListings
+                  </span>
                 </div>
                 <div className="-mr-2">
                   <button

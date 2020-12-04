@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div id="contact" className="mt-16 py-12 md:py-64 bg-gray-100">
       <Container>
-        <h2 className="cursive mb-12 text-3xl tracking-tight leading-10 text-brand sm:leading-none md:text-5xl">
+        <h2 className="mb-12 text-3xl tracking-tight leading-10 font-extrabold text-brand sm:leading-none md:text-5xl">
           Contact Us
         </h2>
         <div className="mt-5 md:grid md:grid-cols-2 md:gap-8">

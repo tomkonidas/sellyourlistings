@@ -32,7 +32,7 @@ const ServicesPricingChart = () => {
         id="total"
         className="border-t-4 border-dotted border-brand py-4 pr-4 flex justify-end items-center"
       >
-        <div className="text-xl cursive mr-4">Total</div>
+        <div className="text-xl mr-4">Total</div>
         <div className="font-semibold">{state.total.toFixed(2)}</div>
       </div>
     </Container>
