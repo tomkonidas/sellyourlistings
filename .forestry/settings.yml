@@ -22,8 +22,8 @@ sections:
   path: content/data/packages.json
   label: Packages
 - type: document
-  path: content/data/contacts.json
-  label: Contacts
+  path: content/data/contact.json
+  label: Contact
 upload_dir: /
 public_path: https://res.cloudinary.com/sell-your-listings
 front_matter_path: ''
