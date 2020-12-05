@@ -87,7 +87,7 @@ const ServicePricingChartRow = ({ service }) => {
           ></span>
           <span
             aria-hidden="true"
-            className={`translate-x-0 absolute left-0 inline-block h-5 w-5 border border-gray-200 rounded-full bg-white shadow transform group-focus:shadow-outline group-focus:border-blue-300 transition-transform ease-in-out duration-200 ${
+            className={`translate-x-0 absolute left-0 inline-block h-5 w-5 border border-gray-200 rounded-full bg-white shadow transform group-focus:ring group-focus:border-blue-300 transition-transform ease-in-out duration-200 ${
               state.service_codes.includes(service.service_code)
                 ? "translate-x-5"
                 : "translate-x-0"

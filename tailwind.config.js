@@ -4,16 +4,12 @@ module.exports = {
   purge: {
     content: ["./src/components/**/*.js", "./src/pages/**/*.js"],
   },
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
   theme: {
     extend: {
       colors: {
         brand: {
           light: "#F55555",
-          default: "#F54F4F",
+          DEFAULT: "#F54F4F",
           dark: "#FF3434",
         },
       },
@@ -23,5 +19,9 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [require("@tailwindcss/ui")],
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/aspect-ratio"),
+  ],
 }

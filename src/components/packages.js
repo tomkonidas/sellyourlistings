@@ -94,7 +94,7 @@ const Packages = ({ mostPopularPackage, leftPackage, rightPackage }) => {
                         <div className="rounded-lg shadow-md">
                           <Link
                             to="/#contact"
-                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-brand hover:text-brand-light focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
+                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-brand hover:text-brand-light focus:outline-none focus:ring transition ease-in-out duration-150"
                             aria-describedby="tier-hobby"
                           >
                             Select this package
@@ -176,7 +176,7 @@ const Packages = ({ mostPopularPackage, leftPackage, rightPackage }) => {
                       <div className="rounded-lg shadow-md">
                         <Link
                           to="/#contact"
-                          className="block w-full text-center rounded-lg border border-transparent bg-brand px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-brand-light focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition ease-in-out duration-150"
+                          className="block w-full text-center rounded-lg border border-transparent bg-brand px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-brand-light focus:outline-none focus:border-indigo-700 focus:ring-indigo transition ease-in-out duration-150"
                           aria-describedby="tier-growth"
                         >
                           Select this package
@@ -250,7 +250,7 @@ const Packages = ({ mostPopularPackage, leftPackage, rightPackage }) => {
                         <div className="rounded-lg shadow-md">
                           <Link
                             to="/#contact"
-                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-brand hover:text-brand-light focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
+                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-brand hover:text-brand-light focus:outline-none focus:ring transition ease-in-out duration-150"
                             aria-describedby="tier-scale"
                           >
                             Select this package
