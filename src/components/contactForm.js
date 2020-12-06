@@ -90,7 +90,7 @@ const ContactForm = () => {
             action="/thanks"
             netlify-honeypot="bot-field"
             data-netlify="true"
-            name="Website submission"
+            name="contact"
             className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
           >
             <input type="hidden" name="bot-field" />
