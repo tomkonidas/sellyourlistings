@@ -86,7 +86,6 @@ const ContactForm = () => {
         </div>
         <div className="mt-12">
           <form
-            action="#"
             method="POST"
             netlify-honeypot="bot-field"
             data-netlify="true"
@@ -108,7 +107,7 @@ const ContactForm = () => {
                   type="text"
                   name="name"
                   id="name"
-                  autocomplete="name"
+                  autoComplete="name"
                   className="py-3 px-4 block w-full shadow-sm focus:ring-brand focus:border-brand border-gray-300 rounded-md"
                   placeholder={name}
                 />
@@ -126,7 +125,7 @@ const ContactForm = () => {
                   id="email"
                   name="email"
                   type="email"
-                  autocomplete="email"
+                  autoComplete="email"
                   className="py-3 px-4 block w-full shadow-sm focus:ring-brand focus:border-brand border-gray-300 rounded-md"
                   placeholder={email}
                 />
@@ -144,7 +143,7 @@ const ContactForm = () => {
                   id="phone_number"
                   name="phone_number"
                   type="text"
-                  autocomplete="tel"
+                  autoComplete="tel"
                   className="py-3 px-4 block w-full shadow-sm focus:ring-brand focus:border-brand border-gray-300 rounded-md"
                   placeholder={phone}
                 />
@@ -161,11 +160,13 @@ const ContactForm = () => {
                 id="package"
                 name="package"
                 className="mt-1 block w-full pl-3 pr-10 py-3 px-4 text-base border-gray-300 focus:outline-none focus:ring-brand focus:border-brand sm:text-sm rounded-md"
-                value={state.selectedPackage}
+                defaultValue={state.selectedPackage}
               >
-                <option selected>None</option>
+                <option value="">None</option>
                 {packages.map(({ name, package_code }) => (
-                  <option value={package_code}>{name}</option>
+                  <option key={package_code} value={package_code}>
+                    {name}
+                  </option>
                 ))}
               </select>
             </div>
@@ -180,8 +181,8 @@ const ContactForm = () => {
                 id="property_type"
                 name="property_type"
                 className="mt-1 block w-full pl-3 pr-10 py-3 px-4 text-base border-gray-300 focus:outline-none focus:ring-brand focus:border-brand sm:text-sm rounded-md"
-                value={state.buildType}
-                onChange={() => dispatch({ type: "TOGGLE_BUILD_TYPE" })}
+                defaultValue={state.buildType}
+                onBlur={() => dispatch({ type: "TOGGLE_BUILD_TYPE" })}
               >
                 <option value="condo">Condo</option>
                 <option value="house">House</option>
