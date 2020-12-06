@@ -86,7 +86,8 @@ const ContactForm = () => {
         </div>
         <div className="mt-12">
           <form
-            method="POST"
+            method="post"
+            action="/thanks"
             netlify-honeypot="bot-field"
             data-netlify="true"
             name="Website submission"

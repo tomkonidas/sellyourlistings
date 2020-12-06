@@ -3,20 +3,20 @@ import React from "react"
 import SEO from "../components/seo"
 import "../styles/global.css"
 
-const NotFoundPage = () => (
+const ThanksPage = () => (
   <>
-    <SEO title="404: Not found" />
+    <SEO title="Thanks for your Submission!" />
     <div className="bg-gray-100 min-h-screen h-100 flex flex-col justify-center items-center">
       <div className="mt-1/6 flex items-center">
         <h1 className="px-4 text-5xl font-semibold border-brand border-r-4">
-          404
+          Thanks!
         </h1>
         <p className="px-4 text-xl font-medium">
-          This page could not be found.
+          We will be in contact with you very soon.
         </p>
       </div>
     </div>
   </>
 )
 
-export default NotFoundPage
+export default ThanksPage
