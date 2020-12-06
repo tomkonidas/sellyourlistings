@@ -2,14 +2,13 @@ import React from "react"
 
 const Youtube = ({ url }) => {
   return (
-    <div className="flex flex-column w-100 h-100">
+    <div className="videoWrapper mb-6">
       <iframe
         title="youtube"
-        width="auto"
-        height="auto"
+        width="1920"
+        height="1080"
         src={url}
         frameBorder="0"
-        className="flex-grow"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>

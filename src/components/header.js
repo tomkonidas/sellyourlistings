@@ -70,10 +70,10 @@ const Header = () => {
                 Services
               </Link>
               <Link
-                to="/showcase"
+                to="/portfolio"
                 className="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
               >
-                Showcase
+                Portfolio
               </Link>
               <Link
                 to="/contact"
@@ -155,11 +155,11 @@ const Header = () => {
                   Services
                 </Link>
                 <Link
-                  to="/showcase"
+                  to="/portfolio"
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                   role="menuitem"
                 >
-                  Showase
+                  Portfolio
                 </Link>
                 <Link
                   to="/contact"

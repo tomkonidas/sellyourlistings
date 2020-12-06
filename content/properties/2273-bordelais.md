@@ -1,9 +1,9 @@
 ---
 active: true
 name: 2273 Bordelais
-description: ''
-thumbnail: ''
+slug: 2273-bordelais
+description: ""
+thumbnail: ""
 images: []
 media: []
-
 ---
