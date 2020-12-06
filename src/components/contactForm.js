@@ -11,7 +11,7 @@ const ContactForm = () => {
   const { packages } = require("../../content/data/packages.json")
   const { state, dispatch } = useContext(Context)
   return (
-    <div className="bg-white overflow-hidden py-6 sm:px-6 lg:px-8 lg:py-24">
+    <div className="bg-white overflow-hidden py-6 sm:px-6 lg:px-8 lg:py-10">
       <div className="relative max-w-xl mx-auto">
         <svg
           className="absolute left-full transform translate-x-1/2"
