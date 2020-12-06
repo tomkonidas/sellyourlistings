@@ -14,6 +14,8 @@ images:
 - https://res.cloudinary.com/sell-your-listings/v1607291890/2273-bordelais-07_copoos.jpg
 - https://res.cloudinary.com/sell-your-listings/v1607291878/2273-bordelais-05_kf38km.jpg
 media:
+- url: https://www.youtube.com/embed/D3MpkyWfIn8
+  type: youtube
 - url: https://my.matterport.com/show/?m=rGhCHWfrqhe
   type: matterport
 
