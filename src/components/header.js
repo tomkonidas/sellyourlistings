@@ -1,4 +1,5 @@
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
 import React, { useState } from "react"
 
 import Container from "./container"
@@ -6,19 +7,29 @@ import Transition from "./transition"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
-
+  const data = useStaticQuery(graphql`
+    query {
+      logo: file(relativePath: { eq: "sellyourlistings-icon.png" }) {
+        childImageSharp {
+          fixed(width: 64) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `)
   return (
     <div className="relative pt-6 z-50">
       <Container>
         <nav className="relative flex items-center justify-between">
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <Link
-                to="/"
-                aria-label="Home"
-                className="text-2xl font-extrabold"
-              >
-                SellYourListings
+              <Link to="/" aria-label="Home">
+                <Img
+                  className="w-full"
+                  fixed={data.logo.childImageSharp.fixed}
+                  alt="Sell Your Listings"
+                />
               </Link>
               <div className="-mr-2 flex items-center md:hidden">
                 <button
