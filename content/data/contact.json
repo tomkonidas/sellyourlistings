@@ -4,5 +4,15 @@
   "socials": {
     "facebook": "https://www.facebook.com/sellyourlistings-106266777782803",
     "instagram": "https://www.instagram.com/sellyourlistings/"
+  },
+  "form": {
+    "title": "Contact sales",
+    "placeholders": {
+      "name": "Elon Musk",
+      "email": "emusk@gmail.com",
+      "phone": "(438) 998-0466",
+      "message":"Hello, I have a Condo located at 1950 rue Claude-Gagné...",
+      "submit": "Let's talk"
+    }
   }
 }

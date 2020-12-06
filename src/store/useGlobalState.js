@@ -33,6 +33,11 @@ const reducer = (state, action) => {
         service_codes: newServiceCodes,
         total: newTotal,
       }
+    case "CHANGE_SELECTED_PACKAGE":
+      return {
+        ...state,
+        selectedPackage: action.packageCode,
+      }
     default: {
       return state
     }
@@ -42,6 +47,7 @@ const reducer = (state, action) => {
 const useGlobalState = () => {
   const [state, dispatch] = useReducer(reducer, {
     buildType: "condo",
+    selectedPackage: "",
     total: 0.0,
     service_codes: [],
   })
