@@ -13,29 +13,31 @@ const ServicesPricingChart = () => {
   const displayedServices = getDisplayedServices()
 
   return (
-    <Container>
-      <BuildTypeToggle />
-      {displayedServices.map(({ category, services }) => (
-        <div className="my-6" key={category}>
-          <SectionTitle>{category}</SectionTitle>
-          <div>
-            {services.map(service => (
-              <ServicePricingChartRow
-                key={service.service_code}
-                service={service}
-              />
-            ))}
+    <div className="pt-16 pb-4">
+      <Container>
+        <BuildTypeToggle />
+        {displayedServices.map(({ category, services }) => (
+          <div className="my-6" key={category}>
+            <SectionTitle>{category}</SectionTitle>
+            <div>
+              {services.map(service => (
+                <ServicePricingChartRow
+                  key={service.service_code}
+                  service={service}
+                />
+              ))}
+            </div>
           </div>
+        ))}
+        <div
+          id="total"
+          className="border-t-4 border-dotted border-brand py-4 pr-4 flex justify-end items-center"
+        >
+          <div className="text-xl mr-4">Total</div>
+          <div className="font-semibold">{state.total.toFixed(2)}</div>
         </div>
-      ))}
-      <div
-        id="total"
-        className="border-t-4 border-dotted border-brand py-4 pr-4 flex justify-end items-center"
-      >
-        <div className="text-xl mr-4">Total</div>
-        <div className="font-semibold">{state.total.toFixed(2)}</div>
-      </div>
-    </Container>
+      </Container>
+    </div>
   )
 }
 

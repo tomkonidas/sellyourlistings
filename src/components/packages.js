@@ -1,10 +1,19 @@
 import React, { useContext } from "react"
-import { Link } from "gatsby"
+import { navigate } from "gatsby"
 import Context from "../store/context"
 import BuildTypeToggle from "./buildTypeToggle"
 
 const Packages = ({ mostPopularPackage, leftPackage, rightPackage }) => {
-  const { state } = useContext(Context)
+  const { state, dispatch } = useContext(Context)
+
+  const handleSelectPackage = packageCode => {
+    dispatch({
+      type: "CHANGE_SELECTED_PACKAGE",
+      packageCode: packageCode,
+    })
+    navigate("/contact")
+  }
+
   return (
     <div id="packages" className="bg-gray-900">
       <div className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
@@ -92,13 +101,15 @@ const Packages = ({ mostPopularPackage, leftPackage, rightPackage }) => {
                       </ul>
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
-                          <Link
-                            to="/#contact"
-                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-brand hover:text-brand-light focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
+                          <button
+                            onClick={() =>
+                              handleSelectPackage(leftPackage.package_code)
+                            }
+                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-brand hover:text-brand-light focus:outline-none focus:ring transition ease-in-out duration-150"
                             aria-describedby="tier-hobby"
                           >
                             Select this package
-                          </Link>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -174,13 +185,15 @@ const Packages = ({ mostPopularPackage, leftPackage, rightPackage }) => {
                     </ul>
                     <div className="mt-10">
                       <div className="rounded-lg shadow-md">
-                        <Link
-                          to="/#contact"
-                          className="block w-full text-center rounded-lg border border-transparent bg-brand px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-brand-light focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition ease-in-out duration-150"
+                        <button
+                          className="block w-full text-center rounded-lg border border-transparent bg-brand px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-brand-light focus:outline-none focus:border-indigo-700 focus:ring-indigo transition ease-in-out duration-150"
                           aria-describedby="tier-growth"
+                          onClick={() =>
+                            handleSelectPackage(mostPopularPackage.package_code)
+                          }
                         >
                           Select this package
-                        </Link>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -248,13 +261,15 @@ const Packages = ({ mostPopularPackage, leftPackage, rightPackage }) => {
                       </ul>
                       <div className="mt-8">
                         <div className="rounded-lg shadow-md">
-                          <Link
-                            to="/#contact"
-                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-brand hover:text-brand-light focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
+                          <button
+                            className="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base leading-6 font-medium text-brand hover:text-brand-light focus:outline-none focus:ring transition ease-in-out duration-150"
                             aria-describedby="tier-scale"
+                            onClick={() =>
+                              handleSelectPackage(rightPackage.package_code)
+                            }
                           >
                             Select this package
-                          </Link>
+                          </button>
                         </div>
                       </div>
                     </div>

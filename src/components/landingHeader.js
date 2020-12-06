@@ -126,7 +126,7 @@ const LandingHeader = () => {
                   href="https://www.youtube.com/watch?v=VnU7RHhIGPA"
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:shadow-outline"
+                  className="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:ring"
                 >
                   <Img
                     className="w-full"
