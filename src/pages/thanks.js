@@ -1,4 +1,6 @@
 import React from "react"
+import { Link, graphql, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
 
 import SEO from "../components/seo"
 import "../styles/global.css"
@@ -7,6 +9,18 @@ const ThanksPage = () => {
   const {
     form: { success },
   } = require("../../content/data/contact.json")
+
+  const data = useStaticQuery(graphql`
+    query {
+      logo: file(relativePath: { eq: "sellyourlistings-icon.png" }) {
+        childImageSharp {
+          fixed(width: 128) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `)
 
   return (
     <>
@@ -18,6 +32,13 @@ const ThanksPage = () => {
           </h1>
           <p className="px-4 text-xl font-medium">{success}</p>
         </div>
+        <Link to="/" aria-label="Home">
+          <Img
+            className="w-full mt-4"
+            fixed={data.logo.childImageSharp.fixed}
+            alt="Sell Your Listings"
+          />
+        </Link>
       </div>
     </>
   )
