@@ -11,6 +11,7 @@ exports.createPages = ({ graphql, actions }) => {
           {
             properties: allMarkdownRemark(
               filter: { frontmatter: { active: { eq: true } } }
+              sort: { fields: frontmatter___name }
             ) {
               nodes {
                 id
