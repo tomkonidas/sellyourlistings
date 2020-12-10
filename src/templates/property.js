@@ -20,7 +20,7 @@ const Property = ({ pageContext: { property } }) => {
         {property.images.length > 0 && (
           <div
             id="photo"
-            className="mb-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+            className="mb-10 grid grid-cols-1 gap-6 sm:grid-cols-3 xl:grid-cols-4"
           >
             {property.images.map(url => (
               <PropertyImage url={url} key={url} alt={property.name} />
