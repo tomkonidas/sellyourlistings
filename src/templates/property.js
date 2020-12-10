@@ -17,6 +17,9 @@ const Property = ({ pageContext: { property } }) => {
       <Header />
       <Container>
         <PageTitle>{property.name}</PageTitle>
+        <p className="text-lg font-medium text-gray-800 py-6">
+          {property.description}
+        </p>
         {property.images.length > 0 && (
           <div
             id="photo"
