@@ -9,7 +9,7 @@ const PropertyImage = ({ url, alt }) => {
 
   return (
     <img
-      className="rounded"
+      className="rounded col-span-1"
       src={parseImgUrl(url)}
       width="400"
       height="300"
