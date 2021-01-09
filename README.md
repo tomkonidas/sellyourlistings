@@ -6,6 +6,8 @@
 
 <h3 align="center">We help you sell your listings faster</h3>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9eb8f856-ea47-41e4-8808-6a66dfee6c05/deploy-status)](https://app.netlify.com/sites/sellyourlistings/deploys)
+
 ## Technologies
 
 - [Gatsby](https://www.gatsbyjs.com/)
