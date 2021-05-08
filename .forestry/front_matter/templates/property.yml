@@ -62,6 +62,7 @@ fields:
   label: Media
   description: URL
 pages:
+- content/properties/175-de-la-seigneurie.md
 - content/properties/2273-bordelais.md
 - content/properties/51-cambridge.md
 - content/properties/7-maurice.md
