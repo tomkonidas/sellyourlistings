@@ -14,7 +14,5 @@ images:
 media:
 - url: https://www.youtube.com/embed/D3MpkyWfIn8
   type: youtube
-- url: https://my.matterport.com/show/?m=rGhCHWfrqhe
-  type: matterport
 
 ---
