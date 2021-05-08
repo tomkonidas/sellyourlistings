@@ -3,15 +3,15 @@ active: true
 name: 51 Cambridge
 slug: 51-cambridge
 description: ''
-thumbnail: https://res.cloudinary.com/sell-your-listings/v1620436312/51_Cambridge_1_c5qmyl.jpg
+thumbnail: https://res.cloudinary.com/sell-your-listings/v1620438917/51-cambridge-1_ziyjvv.jpg
 images:
-- https://res.cloudinary.com/sell-your-listings/v1620436312/51_Cambridge_1_c5qmyl.jpg
-- https://res.cloudinary.com/sell-your-listings/v1620436312/51_Cambridge_7_bd0ujs.jpg
-- https://res.cloudinary.com/sell-your-listings/v1620436312/51_Cambridge_3_xkw8zm.jpg
-- https://res.cloudinary.com/sell-your-listings/v1620436312/51_Cambridge_5_a69oml.jpg
-- https://res.cloudinary.com/sell-your-listings/v1620436312/51_Cambridge_2_tice9x.jpg
-- https://res.cloudinary.com/sell-your-listings/v1620436312/51_Cambridge_6_sjsdix.jpg
-- https://res.cloudinary.com/sell-your-listings/v1620436313/51_Cambridge_4_lbdnau.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620438916/51-cambridge-3_bxh0hm.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620438916/51-cambridge-5_xujgfa.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620438917/51-cambridge-7_xbl9on.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620438917/51-cambridge-2_kxidk1.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620438917/51-cambridge-4_xsqsww.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620438917/51-cambridge-6_pnaayf.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620438917/51-cambridge-1_ziyjvv.jpg
 media:
 - url: https://www.youtube.com/embed/gXHTt5UjbwQ
   type: youtube
