@@ -3,16 +3,14 @@ active: true
 name: 2273 Bordelais
 slug: 2273-bordelais
 description: ''
-thumbnail: https://res.cloudinary.com/sell-your-listings/v1607291898/2273-bordelais-13_k8gtkt.jpg
+thumbnail: https://res.cloudinary.com/sell-your-listings/v1620436542/2273_bordelais_compressed_6_sffdy5.jpg
 images:
-- https://res.cloudinary.com/sell-your-listings/v1607291906/2273-bordelais-14_lhhbrk.jpg
-- https://res.cloudinary.com/sell-your-listings/v1607291902/2273-bordelais-09_zad3s2.jpg
-- https://res.cloudinary.com/sell-your-listings/v1607291898/2273-bordelais-12_yyxjfq.jpg
-- https://res.cloudinary.com/sell-your-listings/v1607291898/2273-bordelais-13_k8gtkt.jpg
-- https://res.cloudinary.com/sell-your-listings/v1607291895/2273-bordelais-11_eka39l.jpg
-- https://res.cloudinary.com/sell-your-listings/v1607291893/2273-bordelais-10_q8cq0k.jpg
-- https://res.cloudinary.com/sell-your-listings/v1607291890/2273-bordelais-07_copoos.jpg
-- https://res.cloudinary.com/sell-your-listings/v1607291878/2273-bordelais-05_kf38km.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620436540/2273_bordelais_compressed_1_hmnkey.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620436541/2273_bordelais_compressed_2_yc4roy.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620436541/2273_bordelais_compressed_3_gsyb3m.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620436541/2273_bordelais_compressed_5_ikmoio.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620436542/2273_bordelais_compressed_6_sffdy5.jpg
+- https://res.cloudinary.com/sell-your-listings/v1620436542/2273_bordelais_compressed_4_lcjnvt.jpg
 media:
 - url: https://www.youtube.com/embed/D3MpkyWfIn8
   type: youtube
