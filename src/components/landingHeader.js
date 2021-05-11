@@ -123,7 +123,7 @@ const LandingHeader = () => {
               </svg>
               <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
                 <a
-                  href="https://www.youtube.com/watch?v=VnU7RHhIGPA"
+                  href="https://www.youtube.com/watch?v=-ZPLtDSeMSs"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:ring"
