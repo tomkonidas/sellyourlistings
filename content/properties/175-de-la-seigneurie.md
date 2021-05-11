@@ -13,5 +13,6 @@ images:
 - https://res.cloudinary.com/sell-your-listings/v1620441217/175-de-la-seigneurie-4_vhwpun.jpg
 - https://res.cloudinary.com/sell-your-listings/v1620441217/175-de-la-seigneurie-5_c3odad.jpg
 media:
-- url: https://www.youtube.com/embed/PBm9Exyqu6E
+  - url: https://www.youtube.com/embed/PBm9Exyqu6E
+    type: youtube
 ---

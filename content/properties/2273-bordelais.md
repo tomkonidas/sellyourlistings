@@ -12,6 +12,7 @@ images:
 - https://res.cloudinary.com/sell-your-listings/v1620436542/2273_bordelais_compressed_6_sffdy5.jpg
 - https://res.cloudinary.com/sell-your-listings/v1620436542/2273_bordelais_compressed_4_lcjnvt.jpg
 media:
-- url: https://www.youtube.com/embed/D3MpkyWfIn8
+  - url: https://www.youtube.com/embed/D3MpkyWfIn8
+    type: youtube
 
 ---

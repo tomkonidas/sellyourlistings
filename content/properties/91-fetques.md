@@ -13,6 +13,7 @@ images:
 - https://res.cloudinary.com/sell-your-listings/v1620437395/91-fetques-2_h7jnwa.jpg
 - https://res.cloudinary.com/sell-your-listings/v1620437395/91-fetques-5_zyybhb.jpg
 media:
-- url: https://www.youtube.com/embed/JDNAxt0GUdQ
+  - url: https://www.youtube.com/embed/JDNAxt0GUdQ
+    type: youtube
 
 ---
