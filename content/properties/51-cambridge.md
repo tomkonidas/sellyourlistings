@@ -13,9 +13,9 @@ images:
 - https://res.cloudinary.com/sell-your-listings/v1620438917/51-cambridge-6_pnaayf.jpg
 - https://res.cloudinary.com/sell-your-listings/v1620438917/51-cambridge-1_ziyjvv.jpg
 media:
-- url: https://www.youtube.com/embed/gXHTt5UjbwQ
-  type: youtube
-- url: https://www.youtube.com/embed/aw_TksVa-q0
+- url: <iframe width="956" height="538" src="https://www.youtube.com/embed/gXHTt5UjbwQ"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   type: youtube
 
 ---
