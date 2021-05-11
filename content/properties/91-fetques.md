@@ -12,6 +12,10 @@ images:
 - https://res.cloudinary.com/sell-your-listings/v1620437394/91-fetques-4_adlvm8.jpg
 - https://res.cloudinary.com/sell-your-listings/v1620437395/91-fetques-2_h7jnwa.jpg
 - https://res.cloudinary.com/sell-your-listings/v1620437395/91-fetques-5_zyybhb.jpg
-media: []
+media:
+- url: <iframe width="956" height="538" src="https://www.youtube.com/embed/JDNAxt0GUdQ"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  type: youtube
 
 ---
