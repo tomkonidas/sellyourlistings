@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import "../styles/global.css"
 
 const NotFoundPage = () => {
@@ -20,7 +20,7 @@ const NotFoundPage = () => {
 
   return (
     <>
-      <SEO title="404: Not found" />
+      <Seo title="404: Not found" />
       <div className="bg-gray-100 min-h-screen h-100 flex flex-col justify-center items-center">
         <div className="mt-1/6 flex items-center">
           <h1 className="px-4 text-5xl font-semibold border-brand border-r-4">

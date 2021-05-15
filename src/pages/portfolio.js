@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Layout from "../components/layout"
 import Header from "../components/header"
 import Container from "../components/container"
@@ -14,7 +14,7 @@ const PortfolioPage = ({ data: { allMarkdownRemark } }) => {
   }
   return (
     <Layout>
-      <SEO title="Portfolio" />
+      <Seo title="Portfolio" />
       <Header />
       <Container>
         {allMarkdownRemark.edges.map(({ node: { frontmatter } }) => (

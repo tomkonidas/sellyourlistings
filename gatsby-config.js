@@ -22,9 +22,10 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
+    // `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -38,11 +39,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-slug`,
+    // `gatsby-plugin-slug`,
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/admin/*`],
+        excludes: [`/admin/*`],
       },
     },
     {

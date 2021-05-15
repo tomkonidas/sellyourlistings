@@ -1,6 +1,6 @@
 import React from "react"
 
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Layout from "../components/layout"
 import Header from "../components/header"
 import Container from "../components/container"
@@ -13,7 +13,7 @@ import Matterport from "../components/matterport"
 const Property = ({ pageContext: { property } }) => {
   return (
     <Layout>
-      <SEO title={property.name} og={property.thumbnail} />
+      <Seo title={property.name} og={property.thumbnail} />
       <Header />
       <Container>
         <PageTitle>{property.name}</PageTitle>

@@ -4,6 +4,7 @@ module.exports = {
   purge: {
     content: ["./src/**/*.{js,jsx,ts,tsx}"],
   },
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
@@ -18,7 +19,11 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      fontWeight: ['hover', 'focus']
+    }
+  },
   plugins: [
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
